@@ -1,9 +1,14 @@
 package com.guofeilong.fortune.ui;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.Window;
+import android.widget.HorizontalScrollView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.guofeilong.fortune.AppConstants;
 import com.guofeilong.fortune.R;
@@ -16,15 +21,10 @@ import com.guofeilong.fortune.ui.view.TrafficDrawView;
 import com.guofeilong.fortune.ui.view.TrafficDrawView.TrafficData;
 import com.guofeilong.fortune.utils.T;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.Window;
-import android.widget.HorizontalScrollView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ChartActivity extends BaseActivity implements OnClickListener {
 	/**
@@ -80,7 +80,6 @@ public class ChartActivity extends BaseActivity implements OnClickListener {
 		myLineChartView.setMargint(20);
 		myLineChartView.setmColor(mColor);
 		myLineChartView.setMarginb(getResources().getDimensionPixelSize(R.dimen.traffic_day_chart_view__x2bottom_hight));// x轴距离底边的距离
-		// myLineChartView.setMarginb(80);// x轴距离底边的距离
 		myLineChartView.setMstyle(Mstyle.Curve);
 
 		fillData();
