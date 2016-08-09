@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/friends_item_iv_line_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@color/conmmd_lightgray"
+        android:paddingBottom="1dip"
+        android:paddingLeft="7dip"
+        android:paddingTop="1dip"
+        android:text="ABCD...."
+        android:textColor="@color/conmmd_textcolor_s" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="9dp"
+        android:paddingTop="5dp" >
+
+        <com.guofeilong.fortune.ui.view.CircleImageView
+            android:id="@+id/item_friends_iv_portrait"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_portrait_shape"
+            android:src="@drawable/default_portrait" />
+
+        <TextView
+            android:id="@+id/item_friends_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dip"
+            android:paddingRight="40dp"
+            android:paddingTop="10dip"
+            android:text=""
+            android:textColor="@color/conmmd_textcolor" />
+    </LinearLayout>
+
+</LinearLayout>

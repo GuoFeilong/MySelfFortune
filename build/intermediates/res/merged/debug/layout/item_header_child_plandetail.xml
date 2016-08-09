@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_order_preview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/conmmd_lightgray"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2" >
+
+            <TextView
+                android:id="@+id/tv_plandetail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:text="Type:"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <TextView
+                android:id="@+id/tv_plandetail_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp"
+                android:text="CONNECTIVITY RECHARGE"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_header_plandetail_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_header_child_plandetail.xml -->

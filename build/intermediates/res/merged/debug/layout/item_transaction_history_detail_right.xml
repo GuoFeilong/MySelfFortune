@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/conmmd_lightgray"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:clickable="false"
+        android:padding="3dp" >
+
+        <com.asiainfo.rtss.ui.view.MyCircleImage
+            android:id="@+id/right_transaction_iv_portrait"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_portrait_shape"
+            android:clickable="false"
+            android:src="@drawable/default_portrait" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/right_transaction_iv_portrait"
+            android:background="@drawable/msg_send_bubble"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/right_transaction_conut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:text="₹50"
+                android:textColor="@color/qingse"
+                android:textSize="30sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_from_right_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/histoty_from"
+                    android:textColor="@color/conmmd_textcolor_s" />
+
+                <TextView
+                    android:id="@+id/tv_from_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/tv_from_right_text"
+                    android:layout_toRightOf="@id/tv_from_right_text"
+                    android:text="MiFi7774012572MiFi7774012572MiFi7774012572MiFi7774012572"
+                    android:textColor="@color/conmmd_textcolor_s" />
+
+                <TextView
+                    android:id="@+id/tv_to_right_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/tv_from_right_text"
+                    android:layout_below="@id/tv_from_right"
+                    android:text="@string/histoty_to"
+                    android:textColor="@color/conmmd_textcolor_s" />
+
+                <TextView
+                    android:id="@+id/tv_to_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/tv_to_right_text"
+                    android:layout_below="@id/tv_from_right"
+                    android:layout_toRightOf="@id/tv_to_right_text"
+                    android:text="MiFi7774012556MiFi7774012556MiFi7774012556MiFi7774012556"
+                    android:textColor="@color/conmmd_textcolor_s" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_transaction_history_detail_right.xml -->

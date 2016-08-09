@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-Facebook-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a79fe90626002b24ec34a143a20500f6b01955be">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-Facebook-2.5.9-0ed62d073541655a864bf0b7c02ff4e5bf4e0b01.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-Wechat-Core-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92136e5c0b21498f32473c2f27454a120e6c9003">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Core-2.5.9-8bad49330816691d09576fca639a72b32eebe99f.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-SinaWeibo-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="18dc88022041463ffd46766c68ee2fa7ffbde797">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-SinaWeibo-2.5.9-3740ba3cbe75d736bd682dce05f5298e31a8fe65.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/SMSSDK-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af86e287a4c56bd88377e12890f9a789fa7c263f">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/SMSSDK-1.1.0-57fdd7cf1222ec5e6cb47c8e9d9a629fff005f20.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/okio-1.4.0-8ff5205673e0c9faff74aa4240306ba212333edc.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/android-support-v7-recyclerview-5a2098c9f76ec02598eef7a31d3397af82d04bd1.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/bspatchlib.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b83b96d280a25b8ae3eaa8c864fe1d69772f8c44">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/bspatchlib-55cc75b8a8474e361710d945ec0bbefbc2859d37.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/gson-2.2.4-72fe8bf735bb7cc191aa90adc09636d5f98fb109.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/volley-b8bee79e928f03e26aea30d4e7cf2ea2f8f970c6.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b1fe665b784aa7314d722b2ec17e77f83ba2e717">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/android-support-v4-a239b8869a28344a71b590b13abe9a3576a6fd36.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-Twitter-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4031523912fd98920981b0b3b3521fda0ceb74f3">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-Twitter-2.5.9-ce54742502a18e6eca871877f374a499b0c79699.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-QZone-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7114f50c5d82f272203f8f73b5360b9bb9b27c8e">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-QZone-2.5.9-90eb6b942ec6b820b67e51571af8edf64364c20c.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-QQ-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8c1bb8ed5b311784eb8d94b38ae37eed2a481bf">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-QQ-2.5.9-5230b8dfeca65316e8daf73be1861adf9479f818.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/libammsdk-b52b1f83d0d4a469e337b594559ad2baea763419.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/jpush-sdk-release1.7.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="60d6ab0c8767ceef6bf652b97b35fc508535b28a">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/jpush-sdk-release1.7.3-751fef40341ca4a7bc88a2443d1e86c31a13e96a.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/okhttp-2.4.0-f6f0f18d747eded824b48786a23e35c0acc28a37.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-Core-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="efb870f9aeee6862f29adee7ff63de326f1936b9">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-Core-2.5.9-71821d97aaab5815ced35bf9b8487c105e69ce93.jar" />
+    </item>
+    <item
+        jar="/Users/jsion/AndroidStudioPersonal/MySelfFortune/libs/ShareSDK-Wechat-2.5.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dc381c7ed20524b140563eb7a5570540181ab94b">
+        <dex dex="/Users/jsion/AndroidStudioPersonal/MySelfFortune/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-2.5.9-204b147d737d2d618d0e5f2add64619ade3ea803.jar" />
+    </item>
+
+</items>

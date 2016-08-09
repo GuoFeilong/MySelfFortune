@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:minHeight="@dimen/muilist_text_height"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/muilist_text_height">
+
+        <!-- 单选区域 选中visible 为选择 gone-->
+        <RelativeLayout
+            android:id="@+id/rl_muilist_text_selected_icon_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/muilist_title_common_padding">
+
+
+            <ImageView
+                android:id="@+id/iv_muilist_text_selected_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bg_muilist_text_icon_selected" />
+
+
+        </RelativeLayout>
+
+
+        <!-- 删除区域 点击整个文本区域在父view中移除-->
+        <RelativeLayout
+            android:id="@+id/rl_muilist_text_delete_icon_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/muilist_title_common_padding">
+
+
+            <ImageView
+                android:id="@+id/iv_muilist_text_delete_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bg_muilist_text_icon_delete" />
+
+
+        </RelativeLayout>
+
+        <!-- 文本的区域-->
+
+        <LinearLayout
+            android:id="@+id/ll_muilist_text_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_muilist_text_delete_icon_container"
+            android:layout_toRightOf="@id/rl_muilist_text_selected_icon_container"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/et_muilist_text_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:textSize="@dimen/muilist_title_textsize"
+                android:background="@color/transparent"
+                android:singleLine="true" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_muilist_text_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:visibility="invisible"
+        android:background="@color/conmmd_line" />
+</LinearLayout>

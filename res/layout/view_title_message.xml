@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/commond_title_height" >
+
+    <RelativeLayout
+        android:id="@+id/rl_commond_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_title_height"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/commond_textview_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="@dimen/commond_titlebar_font_size" />
+
+        <RelativeLayout
+            android:id="@+id/commond_imagebutton_title_leftbutton"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/button_back_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_num_message"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/commond_imagebutton_title_del"
+            android:gravity="center"
+            android:text="+99"
+            android:textColor="@color/conmmd_textcolor" />
+
+        <RelativeLayout
+            android:id="@+id/commond_imagebutton_title_del"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_delete_btn_focused" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/commond_imagebutton_title_Rightbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/commond_titlebar_padding"
+            android:background="@null"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="@dimen/commond_titlebar_font_size_right"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+</RelativeLayout>

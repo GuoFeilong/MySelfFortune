@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <RelativeLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_title_height"
+        android:background="@color/conmmd_lightgray" >
+
+        <TextView
+            android:id="@+id/tv_title_boost"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/turboboost_boost"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_title_proproty"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="13dp"
+            android:gravity="center"
+            android:text="@string/turboboost_proproty"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/im_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="13dp"
+            android:src="@drawable/button_back_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainlayout"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/turboboost_shape" >
+
+        <com.asiainfo.rtss.ui.view.DragListView
+            android:id="@+id/tuboboost_dragListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="3.5dp"
+            android:layout_marginTop="3.5dp"
+            android:divider="@color/conmmd_line"
+            android:dividerHeight="@dimen/commond_line_height"
+            android:listSelector="@null"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+        </com.asiainfo.rtss.ui.view.DragListView>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_tuboboost.xml -->

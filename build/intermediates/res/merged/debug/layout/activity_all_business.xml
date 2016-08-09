@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pop_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_lightgray"
+    android:orientation="vertical"
+    android:weightSum="6" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_budget_family" >
+
+            <include
+                android:id="@+id/business_setting_title"
+                layout="@layout/layout_budget_title" />
+
+            <ListView
+                android:id="@+id/lv_business_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/business_setting_title"
+                android:divider="@drawable/line"
+                android:dividerHeight="@dimen/commond_line_height"
+                android:overScrollMode="never"
+                android:padding="1dp"
+                android:scrollbars="none" >
+            </ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.95" >
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="@dimen/budget_btn_reset_width"
+                android:layout_height="@dimen/budget_btn_reset_height"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_gray_selector_2"
+                android:gravity="center"
+                android:text="@string/budget_control_reset"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.95" >
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="@dimen/budget_btn_reset_width"
+                android:layout_height="@dimen/budget_btn_reset_height"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_green_selector"
+                android:gravity="center"
+                android:text="@string/budget_control_submit"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05" >
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_all_business.xml -->

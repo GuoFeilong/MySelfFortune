@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_bg_selector"
+    android:padding="9dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_message_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_message_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free resource notification"
+            android:textColor="@color/m_font_color_pressed" />
+
+        <TextView
+            android:id="@+id/tv_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2222-02-02 22:22"
+            android:textColor="@color/conmmd_textcolor" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_jumpto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rl_message_title"
+        android:src="@drawable/jumpto" />
+
+    <TextView
+        android:id="@+id/tv_message_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_jumpto"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="you free resource used over! you free resource used over! you free resource used over! "
+        android:textColor="@color/conmmd_textcolor" />
+
+    <LinearLayout
+        android:id="@+id/delete_ly"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/rl_message_title"
+        android:layout_alignTop="@+id/rl_message_title"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="-1dip"
+            android:background="#DC143C"
+            android:focusable="false"
+            android:text="删 除"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/anim_ly"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/item_bg_selector"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_huadong"
+        android:layout_width="fill_parent"
+        android:layout_height="17dip"
+        android:layout_above="@+id/tv_message_content"
+        android:layout_below="@+id/rl_message_title" >
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_item_message.xml -->

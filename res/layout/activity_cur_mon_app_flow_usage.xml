@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <ImageView
+            android:id="@+id/activity_cur_mon_iv_ico"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/app_chrome" />
+
+        <TextView
+            android:id="@+id/activity_cur_mon_tv_name"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_cur_mon_iv_ico"
+            android:layout_marginTop="-5dp"
+            android:gravity="center"
+            android:text="youtuvbe"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/activity_cur_mon_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/activity_cur_mon_iv_ico"
+            android:gravity="center"
+            android:text="2/jun"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/activity_cur_mon_tv_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/activity_cur_mon_tv_time"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/activity_cur_mon_iv_ico"
+            android:gravity="center"
+            android:text="28.23MB"
+            android:textColor="@color/data_usage_color_yellow"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <ListView
+        android:id="@+id/activity_cur_mon_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:listSelector="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+    </ListView>
+
+    <!--
+    <ImageView
+        android:id="@+id/ll_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:background="@drawable/bg_by_app_day"
+        >
+    </ImageView>
+    -->
+
+</LinearLayout>

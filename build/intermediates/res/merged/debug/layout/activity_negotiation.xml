@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_commond_title"
+        android:background="@color/conmmd_lightgray" >
+
+        <RelativeLayout
+            android:id="@+id/view_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_trans_darkgray" >
+
+            <!-- 列表数据 -->
+
+            <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/view_btn"
+                android:layout_margin="1dp"
+                android:fadingEdge="none"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/lv_transfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+            <RelativeLayout
+                android:id="@+id/view_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/trans_bottom_view_height"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_trans_lightgray"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/view_btn_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/iv_transfer_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bg_circle_trans" />
+
+                    <TextView
+                        android:id="@+id/tv_transfer_price_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/transfer_text_price_name"
+                        android:textColor="@color/qingse" />
+
+                    <TextView
+                        android:id="@+id/tv_transfer_fee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/transfer_text_result_value"
+                        android:textColor="@color/qingse"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_transfer_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dp"
+                        android:paddingLeft="60dp"
+                        android:text="@string/transfer_bargin_month"
+                        android:textColor="@color/conmmd_textcolor" />
+
+                    <Button
+                        android:id="@+id/btn_transfer_month_value"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/tv_transfer_month"
+                        android:background="@drawable/bg_budget_sub_value"
+                        android:text="@string/transfer_bargin_month_value"
+                        android:textColor="@color/conmmd_textcolor" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_reset"
+                    android:layout_width="@dimen/trans_button_width"
+                    android:layout_height="@dimen/trans_button_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/trans_btn_margin_bottom"
+                    android:layout_marginLeft="@dimen/trans_margin"
+                    android:background="@drawable/button_gray_selector_2"
+                    android:text="@string/transfer_btn_reset"
+                    android:textColor="@color/conmmd_textcolor" />
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="@dimen/trans_button_width"
+                    android:layout_height="@dimen/trans_button_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/trans_btn_margin_bottom"
+                    android:layout_marginRight="@dimen/trans_margin"
+                    android:background="@drawable/button_green_selector"
+                    android:text="@string/transfer_btn_submit"
+                    android:textColor="@color/conmmd_textcolor" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_negotiation.xml -->

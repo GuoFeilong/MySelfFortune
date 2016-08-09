@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_geduan"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/conmmd_very_lightgray" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_language_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_change_language.xml -->

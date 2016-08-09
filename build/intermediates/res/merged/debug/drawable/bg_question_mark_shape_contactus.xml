@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false" >
+    <solid android:color="@color/white" />
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/conmmd_blue" />
+</shape><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/drawable/bg_question_mark_shape_contactus.xml -->

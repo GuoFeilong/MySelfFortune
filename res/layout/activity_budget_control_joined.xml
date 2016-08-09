@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/budget_control_create_separate"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/include_commond_title" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_budget_control_create_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/budget_control_create_separate"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/include_my_qr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/item_budget_control_joined_qr_image" />
+
+        <include
+            android:id="@+id/include_my_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/item_budget_control_joined_image" />
+    </LinearLayout>
+
+</RelativeLayout>

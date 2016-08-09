@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:minHeight="65dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_find_comment_top"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_find_comment_portrait_icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_wx" />
+
+        <TextView
+            android:id="@+id/tv_find_comment_portrait_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="匿名3"
+            android:textColor="@color/conmmd_textcolor" />
+
+        <TextView
+            android:id="@+id/tv_find_comment_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="2013-06-19"
+            android:textColor="@color/conmmd_textcolor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_ll_find_comment_pics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_find_comment_top"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_find_comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/find_default"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_find_comment_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_ll_find_comment_pics"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="@color/conmmd_textcolor" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_find_comment.xml -->

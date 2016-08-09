@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/activity_wallet_include_commond_title"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_wallet_include_commond_title"
+        android:background="@color/white"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="9dp"
+        android:paddingTop="15dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_scan_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wallet_scan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wallet_scan"
+                android:textColor="@color/m_font_color_orange" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_generate_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wallet_payment_code" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wallet_pay_code"
+                android:textColor="@color/m_font_color_pay_code" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:layout_below="@id/ll_qrcode"
+        android:background="@color/conmmd_line" />
+
+    <GridView
+        android:id="@+id/list_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/iv_line"
+        android:layout_margin="10dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="2"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_wallet.xml -->

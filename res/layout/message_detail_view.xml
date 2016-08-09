@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_rounded"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/conmmd_lightgray"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <WebView
+            android:id="@+id/message_detail_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/message_detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

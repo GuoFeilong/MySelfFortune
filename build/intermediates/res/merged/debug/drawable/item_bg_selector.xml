@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/m_lv_line_color_my" />
+    <item android:state_pressed="false" android:drawable="@color/m_bg_item_conversionrate" />
+</selector>
+<!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/drawable/item_bg_selector.xml -->

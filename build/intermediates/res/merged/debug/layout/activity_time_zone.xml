@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <ListView
+        android:id="@+id/lv_time_zone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:divider="@color/transparent"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+    </ListView>
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_time_zone.xml -->

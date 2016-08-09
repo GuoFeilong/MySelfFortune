@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_traffic"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/conmmd_lightgray" >
+
+        <LinearLayout
+            android:id="@+id/ll_diagram_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll_trafficview"
+            android:layout_below="@+id/ll_diagram_title"
+            android:layout_marginBottom="20dp" >
+
+            <com.asiainfo.rtss.ui.view.TrafficDrawView
+                android:id="@+id/trafficdrawview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </com.asiainfo.rtss.ui.view.TrafficDrawView>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_traffic"
+        android:background="@color/conmmd_lightgray" >
+
+        <ImageView
+            android:id="@+id/mouth_flow_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:id="@+id/mouth_flow_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/mouth_flow_line"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/mouth_flow_tittle_continer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/mouth_flow_line1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/mouth_flow_tittle"
+            android:background="@drawable/line" />
+
+        <ListView
+            android:id="@+id/mouth_flow_lv"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:dividerHeight="@dimen/commond_line_height"
+            android:layout_below="@id/mouth_flow_line1"
+            android:divider="@color/conmmd_line"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</RelativeLayout>

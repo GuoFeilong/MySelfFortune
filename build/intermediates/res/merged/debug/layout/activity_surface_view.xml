@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.view.FlowWaterSurfaceView
+        android:id="@+id/homepage_bottle"
+        android:layout_width="@dimen/homepage_bottle_width"
+        android:layout_height="@dimen/homepage_bottle_heigh"
+        android:layout_centerInParent="true" />
+
+    <com.guofeilong.fortune.ui.view.CustomPPTVLoading
+        android:id="@+id/pptv_1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/homepage_bottle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        gfl:pptv_frist_color="@color/demo_title2"
+        gfl:pptv_second_color="@color/demo_title6" >
+    </com.guofeilong.fortune.ui.view.CustomPPTVLoading>
+
+    <com.guofeilong.fortune.ui.view.CustomPPTVLoading
+        android:id="@+id/pptv_2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pptv_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        gfl:pptv_frist_color="@color/demo_title4"
+        gfl:pptv_second_color="@color/demo_title1" >
+    </com.guofeilong.fortune.ui.view.CustomPPTVLoading>
+
+    <com.guofeilong.fortune.ui.view.CustomPPTVLoading
+        android:id="@+id/pptv_3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pptv_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        gfl:pptv_frist_color="@color/demo_title5"
+        gfl:pptv_second_color="@color/demo_title8" >
+    </com.guofeilong.fortune.ui.view.CustomPPTVLoading>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_surface_view.xml -->

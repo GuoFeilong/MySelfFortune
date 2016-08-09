@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:minHeight="69dp" >
+
+    <com.asiainfo.rtss.ui.view.CircleImageView
+        android:id="@+id/civ_budget_control_details_portrait"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/add_friends" />
+
+    <TextView
+        android:id="@+id/tv_budget_control_detils_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/civ_budget_control_details_portrait"
+        android:text="Share Wallet 1"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="@dimen/item_plan_childe_size" />
+
+    <ImageView
+        android:id="@+id/iv_budget_control_details_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_budget_history"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_budget_control_details.xml -->

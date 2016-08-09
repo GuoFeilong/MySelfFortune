@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="10" >
+
+        <ImageView
+            android:layout_width="@dimen/commond_line_height"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/conmmd_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/item_statement_tv_des"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/item_statement_iv_icon"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxLines="4"
+                android:singleLine="false"
+                android:text="VVM VOLTE €30"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/item_statement_iv_icon"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:padding="9dp"
+                android:layout_centerInParent="true"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/item_statement_tv_time"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/item_statement_iv_icon"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="27/09/2014"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

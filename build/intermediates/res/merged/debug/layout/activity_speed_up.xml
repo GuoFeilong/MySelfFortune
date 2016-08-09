@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.view.AngularGaugeView
+        android:id="@+id/speed_up"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_centerInParent="true"
+        android:background="@color/transparent" >
+
+        <ImageView
+            android:id="@+id/iv_needle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_needle"
+            android:tag="needle" />
+
+        <ImageView
+            android:layout_width="26.0dip"
+            android:layout_height="26.0dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_heart" />
+    </com.guofeilong.fortune.ui.view.AngularGaugeView>
+
+    <TextView
+        android:id="@+id/tv_paomadeng2"
+        android:layout_width="155dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_budget_value"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="ps:表针初始化的时候因为是水平的,所以直有利用动画set集合,利用aph动画和tran动画,结合解决了,表针由居中的布局到0刻度,再由0刻度转动的问题"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="10sp" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_speed_up.xml -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1500"
+    android:fromXDelta="0"
+    android:fromYDelta="0"
+    android:interpolator="@android:anim/bounce_interpolator"
+    android:toXDelta="0"
+    android:toYDelta="100%" >
+
+</translate><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/anim/out_from_top2.xml -->

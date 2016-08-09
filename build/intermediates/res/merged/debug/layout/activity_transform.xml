@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_commond_title"
+        android:background="@color/conmmd_lightgray" >
+
+        <RelativeLayout
+            android:id="@+id/view_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_trans_darkgray" >
+           	<include
+           	  android:id="@+id/view_bottom_panel"
+              layout="@layout/view_trans_bottom" />
+           	
+             <ListView android:id="@+id/lv_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/view_bottom_panel"
+                android:scrollbars="none"
+                android:fadingEdge="none"
+                android:overScrollMode="never"
+                android:divider="@color/conmmd_line"
+                android:layout_margin="1dp"></ListView>
+        
+        </RelativeLayout>
+   
+　　
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_transform.xml -->

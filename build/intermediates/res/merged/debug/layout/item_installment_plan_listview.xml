@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud_setting_item"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/item_installment_phone_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Apple iPhone 5S"
+            android:textColor="@color/m_font_color_my"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/item_installment_plan_detail_btn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/lv_bg_shape_light"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/item_installment_plan_lv_plan_detail"
+            android:textColor="@color/m_font_color_my" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/item_installment_phone_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/iphone5s" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_installment_phone_pic"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    android:id="@+id/item_installment_monthly_price_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/item_installment_plan_lv_monthly_price"
+                    android:textColor="@color/m_font_color_2"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/item_installment_monthly_price_value_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="79 kr."
+                    android:textColor="@color/m_font_color_2"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" >
+
+                <TextView
+                    android:id="@+id/item_installment_payment_status_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/item_installment_plan_lv_payment_status"
+                    android:textColor="@color/m_font_color_2"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/item_installment_payment_months_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/item_installment_payment_status_tv"
+                    android:text="12"
+                    android:textColor="@color/qingse"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/item_installment_payment_divider_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/item_installment_payment_months_tv"
+                    android:text="@string/xiegang"
+                    android:textColor="@color/m_font_color_2"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/item_installment_payment_duration_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/item_installment_payment_divider_tv"
+                    android:text="24"
+                    android:textColor="@color/m_font_color_2"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/item_installment_payment_start_end_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/item_installment_payment_duration_tv"
+                    android:text="(06/13 - 06/15)"
+                    android:textColor="@color/m_font_color_2"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <com.asiainfo.rtss.ui.view.NoScrollGridView
+                android:id="@+id/item_installment_gridview_ball"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:clickable="false"
+                android:horizontalSpacing="1dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="12"
+                android:paddingBottom="5dp"
+                android:scrollbars="none"
+                android:verticalSpacing="1dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp" >
+
+        <TextView
+            android:id="@+id/item_installment_payment_btn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_yellow_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/item_installment_plan_lv_payment"
+            android:textColor="@color/conmmd_black" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_installment_plan_listview.xml -->

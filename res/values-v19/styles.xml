@@ -1,0 +1,13 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:listDivider">@drawable/bg_recycle_divider</item>
+    </style>
+    <!-- <item name="android:windowTranslucentNavigation">true</item>-->
+</resources>

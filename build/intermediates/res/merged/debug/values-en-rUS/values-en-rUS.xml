@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string-array name="grid_menu_base_icon">
+        <item>@drawable/gridview_icon_01_usage_overview</item>
+        <item>@drawable/gridview_icon_02_usage_explore</item>
+        <item>@drawable/gridview_icon_03_data_usage</item>
+        <item>@drawable/gridview_icon_04_recharge</item>
+        <item>@drawable/gridview_icon_05_quick_order</item>
+        <item>@drawable/gridview_icon_06_turbo_boost</item>
+        <item>@drawable/gridview_icon_07_transfer</item>
+        <item>@drawable/gridview_icon_08_transform</item>
+        <item>@drawable/gridview_icon_01s_wallet</item>
+        <item>@drawable/gridview_icon_02s_friends</item>
+        <item>@drawable/gridview_icon_03s_budget</item>
+        <item>@drawable/gridview_icon_04s_discovery</item>
+        <item>@drawable/gridview_icon_05s_messages</item>
+        <item>@drawable/gridview_icon_06s_support</item>
+        <item>@drawable/gridview_icon_07s_request</item>
+        <item>@drawable/gridview_icon_08s_setting</item>
+        <item>@drawable/bg_transfer</item>
+    </string-array>
+    <string-array name="grid_menu_base_title">
+        <item>Usage Overview</item>
+        <item>Usage Explore</item>
+        <item>Data Usage</item>
+        <item>Recharge</item>
+        <item>Quick Order</item>
+        <item>Turbo Boost</item>
+        <item>Transfer</item>
+        <item>Transform</item>
+        <item>Wallet</item>
+        <item>Friends</item>
+        <item>Budget Control</item>
+        <item>Discover</item>
+        <item>Messages Box</item>
+        <item>Custom Support</item>
+        <item>Service Request</item>
+        <item>Settings</item>
+        <item/>
+    </string-array>
+    <string-array name="grid_menu_second_post">
+        <item>Turbo Boost</item>
+        <item>Transfer</item>
+        <item>Usage Explore</item>
+        <item>Recharge</item>
+        <item>Transform</item>
+        <item>Usage Overview</item>
+        <item>Quick Order</item>
+        <item>Data Usage</item>
+    </string-array>
+    <string-array name="grid_menu_second_pre">
+        <item>Transfer</item>
+        <item>Transform</item>
+        <item>Turbo Boost</item>
+        <item>Usage Explore</item>
+        <item>Recharge</item>
+        <item>Usage Overview</item>
+        <item>Quick Order</item>
+        <item>Data Usage</item>
+    </string-array>
+    <string-array name="grid_menu_thrid_post">
+        <item>Budget Control</item>
+        <item>Friends</item>
+        <item>Wallet</item>
+        <item>Discover</item>
+        <item>Messages Box</item>
+        <item>Custom Support</item>
+        <item>Service Request</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="grid_menu_thrid_pre">
+        <item>Settings</item>
+        <item>Friends</item>
+        <item>Wallet</item>
+        <item>Discover</item>
+        <item>Messages Box</item>
+        <item>Budget Control</item>
+        <item>Custom Support</item>
+        <item>Service Request</item>
+    </string-array>
+    <string-array name="operator_user_pic">
+        <item>选择本地图片</item>
+        <item>拍照</item>
+    </string-array>
+    <string-array name="sns_platform_labels">
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        <item>微信</item>
+        <item>微信朋友圈</item>
+    </string-array>
+    <string-array name="title_colors">
+        <item>#99c824</item>
+        <item>#1babe0</item>
+        <item>#ff8500</item>
+        <item>#2cbaa9</item>
+        <item>#e3bf1c</item>
+        <item>#e96296</item>
+        <item>#e3bf1c</item>
+    </string-array>
+    <string-array name="title_name_list">
+        <item>No.1 Colorful Icon</item>
+        <item>No.2 Drop Golden Coin</item>
+        <item>No.3 Customer Loading</item>
+        <item>No.4 Dragable Menu</item>
+        <item>No.5 Hot Lable</item>
+        <item>No.6 Fragment Guideline</item>
+        <item>No.7 Fragment Guideline2</item>
+        <item>No.8 Customer Progressbar</item>
+        <item>No.9 Customer Picker</item>
+        <item>No.10 Onebyone Animation</item>
+        <item>No.11 Spped Up View</item>
+        <item>No.12 Chart Activity</item>
+        <item>No.13 PieMenu and BeatNum</item>
+        <item>No.14 CountDwonText</item>
+        <item>No.15 DragLayoutAndZoomWebView</item>
+        <item>No.16 SideBar</item>
+        <item>No.17 WipeView And CirleIcon</item>
+        <item>No.18 BeatLoading</item>
+        <item>No.19 WeChart Audio</item>
+        <item>No.20 WeChart V5.0</item>
+        <item>No.21 WeChart V6.0</item>
+        <item>No.22 Animation with Animator</item>
+        <item>No.23 AsyTask Image</item>
+        <item>No.24 Volley Test</item>
+        <item>No.25 SurfaceView Water</item>
+        <item>No.26 BidirSliding Layout</item>
+        <item>No.27 Intelligent Robot</item>
+        <item>No.28 WechatGroup icon</item>
+        <item>No.29 Zoom ImagetView</item>
+        <item>No.30 Wechart Shake</item>
+        <item>No.31 LoopButton</item>
+        <item>No.32 ViewDragHelper</item>
+        <item>No.33 PinnedHeader Expend</item>
+        <item>No.34 RecyclerView</item>
+        <item>No.35 Lottery</item>
+        <item>No.36 Canvas</item>
+        <item>No.37 PercentLayout</item>
+        <item>No.38 Component</item>
+        <item>No.39 ArrowButton</item>
+        <item>No.40 WheelViewTwo</item>
+        <!--<item>No.40 CoolGuide</item>-->
+        <item>No.41 WheelView</item>
+        <item>No.42 TimeZone</item>
+        <item>No.43 TagFlowLayout</item>
+        <item>No.44 QQ@EditText</item>
+        <item>No.45 RefreshActivity</item>
+        <item>No.46 ViewScrollAndTreeView</item>
+    </string-array>
+    <string-array name="title_name_list_activity">
+        <item>ChangeColorIconActivity</item>
+        <item>GolenCoinActivity</item>
+        <item>CustomerLoadingActivity</item>
+        <item>GridMenuActivity</item>
+        <item>FlowLayoutActivity</item>
+        <item>GuideLineActivity</item>
+        <item>RechargeActivity</item>
+        <item>CustomProgressBarActivity</item>
+        <item>WheelPickerActivity</item>
+        <item>OneByOneTransferAniaActivity</item>
+        <item>SpeedUpActivity</item>
+        <item>ChartActivity</item>
+        <item>PieMenuAndBeatNumTextActivity</item>
+        <item>CountDownActivity</item>
+        <item>DragRelativAndZoomWebviewActivity</item>
+        <item>SideBarActivity</item>
+        <item>WipeActivity</item>
+        <item>BeatLoadingActivity</item>
+        <item>WeChartAudioActivity</item>
+        <item>WechartV5Activity</item>
+        <item>WechartV6Activity</item>
+        <item>AnimationAndAnimatorActivity</item>
+        <item>AsyTaskImageActivity</item>
+        <item>VolleyTestActivity</item>
+        <item>SurfaceViewActivity</item>
+        <item>BidirSlidingLayoutActivity</item>
+        <item>IntelligentRobotActivity</item>
+        <item>WechatGroupIconActivity</item>
+        <item>ZoomImagetViewActivity</item>
+        <item>WechartShakeActivity</item>
+        <item>AndroidLoopButtonActivity</item>
+        <item>ViewDragHelperActivity</item>
+        <item>PinnedHeaderExpendActivity</item>
+        <item>RecyclerViewActivity</item>
+        <item>LotteryActivity</item>
+        <item>CanvasActivity</item>
+        <item>PercentLayoutActivity</item>
+        <item>ComponentActivity</item>
+        <item>ArrawButtonActivity</item>
+        <!--<item>XiaoMaIntroDemo</item>-->
+        <item>WheelViewActivity</item>
+        <item>WheelViewTwoActivity</item>
+        <item>TimeZoneActivity</item>
+        <item>TagFlowLayoutActivity</item>
+        <item>QQaiteActivity</item>
+        <item>RefreshActivity</item>
+        <item>ViewScrollActivity</item>
+    </string-array>
+    <string name="about_copyright">©AsiaInfo,Inc</string>
+    <string name="about_title">About</string>
+    <string name="about_version">RTSS V</string>
+    <string name="account_title">Account Top Up</string>
+    <string name="action_add">添加</string>
+    <string name="action_search">查找</string>
+    <string name="activation_already_activated">User ID already activated.</string>
+    <string name="activation_check_userid">Check</string>
+    <string name="activation_checked_error">User ID unavailable.</string>
+    <string name="activation_checked_ok">User ID available.</string>
+    <string name="activation_resend">Resend</string>
+    <string name="activation_successfully">Successfully activated.</string>
+    <string name="activity_add_card_name">Name:</string>
+    <string name="activity_add_card_name_hint">enter your name</string>
+    <string name="activity_add_card_next">Next</string>
+    <string name="activity_add_card_number">Card No:</string>
+    <string name="activity_add_card_number_hint">enter your card number</string>
+    <string name="activity_bank_card_add_a_card">Add a Card</string>
+    <string name="activity_card_info_card_type">Card Type:</string>
+    <string name="activity_card_info_card_type_hint">Select a card type</string>
+    <string name="activity_card_info_expity_date">Expiry Data:</string>
+    <string name="activity_card_info_mobile">Mobile:</string>
+    <string name="activity_friends_et_hint">Search</string>
+    <string name="activity_my_histotry_statement">Statement</string>
+    <string name="add_card_add_card">Add Card</string>
+    <string name="amount_not_empty">Please enter amount.</string>
+    <string name="app_name">MyDemo\'s</string>
+    <string name="authentication_failed">User ID or password is wrong.</string>
+    <string name="balance_detail_title">Balance Detail</string>
+    <string name="balance_left"> left</string>
+    <string name="balance_more">MORE</string>
+    <string name="balance_title">Balance</string>
+    <string name="balance_transfer_service">Service ID:</string>
+    <string name="balance_transfer_title">Amount Transfer:  </string>
+    <string name="balance_transfer_to">To:  </string>
+    <string name="balance_transter_contants_empty">Please select a recipient.</string>
+    <string name="balance_transter_failed">Fail to transfer</string>
+    <string name="balance_transter_less_than">Amount should be larger than ₹0.01. Please re-enter.</string>
+    <string name="balance_transter_successfully">Successfully Transferred.</string>
+    <string name="balancetransfer_amount">Balance: </string>
+    <string name="balancetransfer_title">Balance Transfer</string>
+    <string name="bank_card_title">Bank Card</string>
+    <string name="bank_info_card_info_popu_title">选择银行卡</string>
+    <string name="bank_info_title">Card Information</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="bluetooth">Bluetooth</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="budget_control_all_budget">Budget</string>
+    <string name="budget_control_all_services">All Services</string>
+    <string name="budget_control_bar">Bar</string>
+    <string name="budget_control_cancel">Cancel</string>
+    <string name="budget_control_confirm">Confirm</string>
+    <string name="budget_control_done">Done</string>
+    <string name="budget_control_loading">loading data...</string>
+    <string name="budget_control_notification">Notification</string>
+    <string name="budget_control_reset">Reset</string>
+    <string name="budget_control_submit">Submit</string>
+    <string name="budget_control_title">Budget Control</string>
+    <string name="budget_item_title">I have created</string>
+    <string name="budget_item_title_s">I have joined</string>
+    <string name="budget_set_up_budget">set up your budget</string>
+    <string name="budgetcontrol_add_members_title">Add Members</string>
+    <string name="budgetcontrol_create_title">Create</string>
+    <string name="budgetcontrol_history_title">History</string>
+    <string name="budgetcontrol_joined_title">Join</string>
+    <string name="budgetcontrol_manager_title">Manage</string>
+    <string name="budgetcontrol_title">Budget Control</string>
+    <string name="button_Transfer">Transfer</string>
+    <string name="button_all">all</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_del">delete</string>
+    <string name="button_login_ok">Login</string>
+    <string name="button_next">Next</string>
+    <string name="button_no">No</string>
+    <string name="button_pay">Pay</string>
+    <string name="button_recharge">Recharge</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_top_up">Top Up</string>
+    <string name="button_usercenter_loginout">Logout</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="cancel">Cancel</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="change_language">Language</string>
+    <string name="change_language_save">Save</string>
+    <string name="change_password_error">error:</string>
+    <string name="changepassword_confirm_new_hint">Enter to confirm new password</string>
+    <string name="changepassword_confirm_new_name"> Confirm New password: </string>
+    <string name="changepassword_new_password_name">Enter New Password  </string>
+    <string name="changepassword_new_password_name_s">New Password:  </string>
+    <string name="changepassword_old_password_hint">Enter Current Password</string>
+    <string name="changepassword_old_password_name">Current Password:</string>
+    <string name="changepassword_one_time_password">One Time Password:</string>
+    <string name="changepassword_successfully">Successfully updated password.</string>
+    <string name="changepsw_title">Change Password</string>
+    <string name="confirmpassword_isempty">Please confirm the new Password.</string>
+    <string name="connecting"> connecting server...</string>
+    <string name="contact_us_faq">Drag Up</string>
+    <string name="contact_us_phoneNo">1800229394</string>
+    <string name="contact_us_support">JioCare</string>
+    <string name="contact_us_title">JioCare</string>
+    <string name="currency_sign">€ </string>
+    <string name="currency_sign_service">Balance:</string>
+    <string name="data">VVM DATA</string>
+    <string name="data_loading">dawnloading...</string>
+    <string name="data_parsing">analyze data...</string>
+    <string name="demo_title_desc">Jsion\'s Demo List</string>
+    <string name="dialog_desc">Transfer confirmation?</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="douban">Douban</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">Email</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="email_title">Email</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="evernote">Evernote</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="exchange_traffic_radarpicker">Are you sure to leave?</string>
+    <string name="exchange_traffic_title_give">Select a Friend</string>
+    <string name="exchange_traffic_title_receive">Receive</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="failed_payment_result">%1$s\n%2$s for: %3$s\nOrder: %4$s\nPayment: ₹ %5$s\n%6$s(%7$s)</string>
+    <string name="find_act_button_text">参加活动</string>
+    <string name="find_act_photo_dialog_title">请选择图片</string>
+    <string name="find_act_title">活动详情</string>
+    <string name="find_comment_btn_take_photo">发布图片参加活动</string>
+    <string name="find_comment_btn_take_text">发布文字参加活动</string>
+    <string name="find_comment_submit">提交</string>
+    <string name="find_comment_submit_fail">提交失败</string>
+    <string name="find_comment_submit_ok">提交成功</string>
+    <string name="find_domob_ad_list">赚币列表</string>
+    <string name="find_domob_ad_title">%1$s-下载赚%2$d超币</string>
+    <string name="find_favorite_empty">暂无收藏,点我去发现收藏</string>
+    <string name="find_hot_fail">点赞失败</string>
+    <string name="find_immediately_act">查看详情</string>
+    <string name="find_immediately_brower">To Buy</string>
+    <string name="find_immediately_download">立即下载</string>
+    <string name="find_immediately_listen">立即收听</string>
+    <string name="find_immediately_watch">立即观看</string>
+    <string name="find_loading">正在加载最新数据</string>
+    <string name="find_loading_comment">正在获取最新评论内容...</string>
+    <string name="find_loading_find">正在获取发现内容...</string>
+    <string name="find_loading_more">正在加载数据</string>
+    <string name="find_loading_more_click">点击加载更多</string>
+    <string name="find_loading_my_comment">正在提交评论...</string>
+    <string name="find_loading_my_comment_act">正在提交活动内容...</string>
+    <string name="find_loading_my_comment_error">请输入评论内容！</string>
+    <string name="find_password_desc">Confirm your User ID,You will receive an OTP</string>
+    <string name="find_password_hide">Enter user ID</string>
+    <string name="find_password_otp">OTP sent by Jio</string>
+    <string name="find_psw_id">ID</string>
+    <string name="find_title_comment">评论</string>
+    <string name="find_title_comment_act">参加活动</string>
+    <string name="find_title_name">Discover</string>
+    <string name="findpassword_user_id">User ID:  </string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="finish">Finish</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="firsttime_activation_error">Fail to activate</string>
+    <string name="firsttime_activation_title">First Time Activation</string>
+    <string name="firsttime_alert_infomation">Confirm your user ID and mobile number.You will receive an OTP</string>
+    <string name="firsttime_hint_confirm_password">Enter to confirm new password</string>
+    <string name="firsttime_hint_mobile_num">Enter your mobile number          </string>
+    <string name="firsttime_hint_new_password">Enter new password</string>
+    <string name="firsttime_hint_new_user_id">Enter your new user ID</string>
+    <string name="firsttime_hint_user_id">Enter user ID sent by Jio</string>
+    <string name="firsttime_india_county_code">+91</string>
+    <string name="firsttime_label_confirm_password">Confirm new password</string>
+    <string name="firsttime_label_mobile_number"> Mobile Number:</string>
+    <string name="firsttime_label_new_password">New Password: </string>
+    <string name="firsttime_label_new_user_id">New User ID:  </string>
+    <string name="firsttime_label_user_id"> User ID:</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="flickr">Flickr</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="forget_password_successfully">Successfully reset password.</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="foursquare">FourSquare</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="friends_add_from_mobile_contacts">Add friends from mobile contacts</string>
+    <string name="friends_choose_from_mobile_contacts">Choose from Friends</string>
+    <string name="friends_dialog_confirm">Delete</string>
+    <string name="friends_dialog_content">Are you sure to delete</string>
+    <string name="friends_no_friends">No matches</string>
+    <string name="friends_title">Friends</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="google_plus_client_inavailable">Google+ client not exists or the version is too low</string>
+    <string name="googleplus">Google+</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="hint_name">User ID/Mobile Number/Email</string>
+    <string name="hint_paw">Password</string>
+    <string name="histoty_from">From:</string>
+    <string name="histoty_to">To:</string>
+    <string name="illegal_mobile_number">Illegal mobile number.Please re-enter.</string>
+    <string name="info_title">message tips....</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram client not exists or the version is too low</string>
+    <string name="instapager_email_or_password_incorrect">Email or Password incorrect</string>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">Email</string>
+    <string name="instapaper_login">Sign In</string>
+    <string name="instapaper_logining">Sign In…</string>
+    <string name="instapaper_pwd">Password</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="invalid_otp">Invalid OTP</string>
+    <string name="item_installment_plan_lv_monthly_price">Monthly price</string>
+    <string name="item_installment_plan_lv_payment">Payment</string>
+    <string name="item_installment_plan_lv_payment_status">Payment status </string>
+    <string name="item_installment_plan_lv_plan_detail">Plan Detail</string>
+    <string name="item_new_password">New Password</string>
+    <string name="item_service_request_id">ID:</string>
+    <string name="item_service_request_status">Status:</string>
+    <string name="item_service_request_title">Title:</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="kaixin">Kaixin</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">KakaoStory client not exists or the version is too low</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">KakaoTalk client not exists or the version is too low</string>
+    <string name="laiwang">Laiwang</string>
+    <string name="laiwang_client_inavailable">Laiwangs client not exists or the version is too low</string>
+    <string name="laiwangmoments">Laiwang Moments</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">Line client not exists or the version is too low</string>
+    <string name="linkedin">Linked in</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="list_friends">Friends on %s</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="live_chat_title">Live Chat</string>
+    <string name="loading">loading...</string>
+    <string name="lockpattern">loack pattern</string>
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <string name="login_dialog_autologin">Stay Login</string>
+    <string name="login_forget_psw">Forgot Password</string>
+    <string name="login_forgetpassword">Forgot Password</string>
+    <string name="login_help">Trouble login ?</string>
+    <string name="login_title">Login</string>
+    <string name="logout_success">Successfully Logged Out.</string>
+    <string name="main_account_balance">Account Balance:</string>
+    <string name="main_activity_please_correct">Please tap bottle again to reload.</string>
+    <string name="main_activity_want_to_give">wants to gift you with</string>
+    <string name="main_fail_get_location">Fail to get Location!</string>
+    <string name="main_give_continue">Do you want to continue?</string>
+    <string name="main_give_error">Fail to gift!</string>
+    <string name="main_give_receiver_reject">Refused by recipient!</string>
+    <string name="main_give_success">Successfully gift!</string>
+    <string name="main_homen_mark_banlance">Balance</string>
+    <string name="main_homen_transfer_to">Transfer to</string>
+    <string name="main_path_menu_friends">Q-Transfer</string>
+    <string name="main_path_menu_gift">Gift</string>
+    <string name="main_path_menu_reciver">Receive</string>
+    <string name="manageplan_buy">Price</string>
+    <string name="manageplan_price_nego">Price Nego</string>
+    <string name="manageplan_recharge">Recharge</string>
+    <string name="manageplan_search_hint">Please type keyword</string>
+    <string name="manageplan_submit">Buy</string>
+    <string name="manageplan_title">Quick Order</string>
+    <string name="mapp_network_error">Network error.</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_group_chat">发起群聊</string>
+    <string name="menu_scan">扫一扫</string>
+    <string name="message_del_error_no_select">Please choose to delete information</string>
+    <string name="message_delete_all_msg">Clear all messages?</string>
+    <string name="message_delete_select_msg">Delete the selected message?</string>
+    <string name="message_detail_title">Message Details</string>
+    <string name="message_name">MessageBox</string>
+    <string name="message_none">No message</string>
+    <string name="message_none_del">Have no news to delete</string>
+    <string name="message_title">MessageBox</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="mingdao">Mingdao</string>
+    <string name="mingdao_share_content">Share webpage</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="mobile_isempty">Please enter your mobile number.</string>
+    <string name="monthflow_title">My Usage</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="multi_share">Photo Sharing</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="myfavorites_title">My Favorites</string>
+    <string name="myhistory_title">My History</string>
+    <string name="near_by_hotspot">Hotspot</string>
+    <string name="near_by_signal">Signal</string>
+    <string name="near_by_store">Store</string>
+    <string name="near_by_title_hotspot">Hotspot Locator</string>
+    <string name="near_by_title_signal">Signal Coverage</string>
+    <string name="near_by_title_store">Store Locator</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="neteasemicroblog">Netease Microblog</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="newpassword_isempty">Please enter a new Password.</string>
+    <string name="nomatch_otp">Wrong OTP.Please re-enter.</string>
+    <string name="notify_lack_number">This friend can not be added, due to lack of mobile number</string>
+    <string name="notify_per_receiver_number">Please type in a number greater than 0</string>
+    <string name="notify_session_time_out">Session Inactive. Please login again</string>
+    <string name="notify_waitting">Keep waiting?</string>
+    <string name="old_password_isempty">Please enter current password.</string>
+    <string name="password_isempty">Please enter password.</string>
+    <string name="password_length">Length of password should between 8-30.</string>
+    <string name="password_nomatch">Passwords do not match</string>
+    <string name="password_rules">Password should be combination of alphanumeric and special characters.</string>
+    <string name="payment_action_recharge">Recharge</string>
+    <string name="payment_action_renew">Renew</string>
+    <string name="payment_action_topup">Topup</string>
+    <string name="payment_logout">Leave payment page?</string>
+    <string name="payment_result_failed">Payment Failed</string>
+    <string name="payment_result_successful">Payment Successful</string>
+    <string name="payment_result_title">Transaction Summary</string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest client not exists or the version is too low</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="plandetails_title">Plan Details</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="pocket">Pocket</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="price_negotiation_dialog">Purchase successful</string>
+    <string name="price_negotiation_dialog_buy">are you Pusrchase?</string>
+    <string name="price_negotiation_title">Price Negotiation</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh">Pull down to refresh</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label"/>
+    <string name="pull_to_refresh_refreshing_label"/>
+    <string name="pull_to_refresh_release_label"/>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">Mobile QQ client not exists or the version is too low</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="quick_order_btn_buy">Buy</string>
+    <string name="quick_order_btn_personalize">Personalize</string>
+    <string name="quick_transfer">Quick Transfer</string>
+    <string name="quick_transfer_btn_ok">Done</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="qzone">QZone</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="recharge_header_desc">CONNECTIVITY RECHARGE</string>
+    <string name="recharge_header_type_desc">Type:</string>
+    <string name="recharge_pay">Buy</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="refreshing">Refreshing…</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="renren">Renren</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="request_call_Email">Email</string>
+    <string name="request_call_calltime">Call time</string>
+    <string name="request_call_name">Name</string>
+    <string name="request_call_phone">Phone No</string>
+    <string name="request_call_service">Service</string>
+    <string name="request_call_title">Request Call</string>
+    <string name="request_call_us_title">Call Us</string>
+    <string name="resent_otp_success">Successfully resent OTP.</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="select_a_friend">Please select a friend</string>
+    <string name="select_one_plat_at_least">Please select a target platform</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="select_pay_title">Select Payment Method</string>
+    <string name="send_otp_failed">Fail to send OTP.</string>
+    <string name="send_otp_success">Successfully sent OTP.</string>
+    <string name="service_request_add_category">Category:</string>
+    <string name="service_request_add_service">Service:</string>
+    <string name="service_request_add_sub_category">Sub Category:</string>
+    <string name="service_request_add_sub_sub_category">Sub Sub Category:</string>
+    <string name="service_request_add_title">Add Service Request</string>
+    <string name="service_request_all">All</string>
+    <string name="service_request_closed">Closed</string>
+    <string name="service_request_complains">Complains</string>
+    <string name="service_request_item_description">Description:</string>
+    <string name="service_request_open">Open</string>
+    <string name="service_request_queries">Queries</string>
+    <string name="service_request_requests">Requests</string>
+    <string name="service_request_title">Service Request</string>
+    <string name="service_top_up_amout_hide">Amount:  </string>
+    <string name="service_top_up_desc">Service ID:</string>
+    <string name="service_topup_title">Service Top Up</string>
+    <string name="setting_about">Set up lockpattern</string>
+    <string name="setting_dnd">DND</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_title">Settings</string>
+    <string name="setting_version_update">Version Update</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="shake2share">Shake your phone!</string>
+    <string name="share">Share</string>
+    <string name="share_canceled">Operation canceled</string>
+    <string name="share_completed">Operation succeeded</string>
+    <string name="share_failed">Operation failed</string>
+    <string name="share_to">Share to </string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="share_to_mingdao">Share To Mingdao</string>
+    <string name="share_to_qq">Share To QQ</string>
+    <string name="share_to_qzone">Share To QZone</string>
+    <string name="share_to_qzone_default">Shared from %s</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/oks_strings.xml -->
+    <eat-comment/>
+    <string name="sharing">Sharing operation is working in the background…</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="shortmessage">Short Message</string>
+    <string name="sinaweibo">Sina Weibo</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="sns_content">这是我用过的最爽的流量管理APP——流量超人。它拥有：超精准详细的流量查询、超安心的智能流量管控、超热辣的热门发现、超优惠的流量添加和超贴心的个人流量云中心。不服？用完来辨！ http://a.app.qq.com/o/simple.jsp?pkgname=com.ailk.android.sjb&amp;g_f=991653</string>
+    <string name="sns_content_weixin">http://mp.weixin.qq.com/s?__biz=MjM5MDYxMzQ4MQ==&amp;mid=227472247&amp;idx=1&amp;sn=063217302b033caae1b17ca4609672e4#rd</string>
+    <string name="sns_des_weixin">糊涂用流量酱真的好吗</string>
+    <string name="sns_from_image">sns_from_image</string>
+    <string name="sns_from_set">sns_from_set</string>
+    <string name="sns_platform_title">分享到</string>
+    <string name="sns_title_weixin">流量都去哪儿？</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="sohumicroblog">Sohu Microblog</string>
+    <string name="sohusuishenkan">Sohu Suishenkan</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="start_welcome_to_des_1">Welcome to Json\'s Demo</string>
+    <string name="start_welcome_to_des_2">Welcome to Json\'s Demo world</string>
+    <string name="state_cancel">松开手指取消发送</string>
+    <string name="state_normal">按住说话</string>
+    <string name="state_press">松开结束</string>
+    <string name="status_get_pay_url_failure">Fail to get payment URL!</string>
+    <string name="status_reset_password_failure">Fail to reset password!</string>
+    <string name="str_recorder_normal">按住 说话</string>
+    <string name="str_recorder_recording">松开 结束</string>
+    <string name="str_recorder_want_cancel">松开手指，取消发送</string>
+    <string name="successful_payment_result">%1$s\n%2$s for: %3$s\nOrder: %4$s\nPayment: ₹ %5$s</string>
+    <string name="tab_contact">通讯录</string>
+    <string name="tab_found">发现</string>
+    <string name="tab_me">我</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="tencentweibo">Tencent Weibo</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="title_loading_client">APP Update</string>
+    <string name="top_up_account">Amount:  </string>
+    <string name="top_up_account_id">Account ID :</string>
+    <string name="top_up_amount">Please enter amount.</string>
+    <string name="topup_amount">Balance: </string>
+    <string name="trans_dialog_info">are you sure?</string>
+    <string name="transfer_amount_larger_than">The transfer amount shouldn\'t be larger than ₹ </string>
+    <string name="transfer_bargin_month">Months:</string>
+    <string name="transfer_bargin_month_value">1</string>
+    <string name="transfer_btn_rate">Rate</string>
+    <string name="transfer_btn_reset">Reset</string>
+    <string name="transfer_btn_submit">Submit</string>
+    <string name="transfer_text_box_name">To:</string>
+    <string name="transfer_text_hint">Transfer to...</string>
+    <string name="transfer_text_info">Please select a contact!</string>
+    <string name="transfer_text_price_name">Fee:</string>
+    <string name="transfer_text_result_name">Fee:</string>
+    <string name="transfer_text_result_value">€0.0</string>
+    <string name="transfer_title">Transfer</string>
+    <string name="transform_rule_title">Exchange Rate</string>
+    <string name="transform_title">TransForm</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="tumblr">Tumblr</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="turboboost_Done">Done</string>
+    <string name="turboboost_boost">Turbo Boost</string>
+    <string name="turboboost_buytime">Buy</string>
+    <string name="turboboost_details">You now have 10 Mbps use time</string>
+    <string name="turboboost_ethor">1 Hour</string>
+    <string name="turboboost_etmbps">0 Mbps</string>
+    <string name="turboboost_for">For</string>
+    <string name="turboboost_proproty">Priority</string>
+    <string name="turboboost_speed">Accelerate to</string>
+    <string name="turboboost_submit">Submit</string>
+    <string name="turboboost_time">Time to show</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="twitter">Twitter</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="update_portrait__delete_failed">Fail to delete profile picture.</string>
+    <string name="update_portrait_failed">Fail to update profile picture.</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="use_login_button">use login button instead</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="user_otp_isempty">Please enter OTP.</string>
+    <string name="usercenter_change_password">Change Password</string>
+    <string name="usercenter_current_account">Current Account</string>
+    <string name="usercenter_getdata_now">正在获取</string>
+    <string name="usercenter_logout">Logout ?</string>
+    <string name="usercenter_my_plans">My Plans</string>
+    <string name="usercenter_myfavorites">My Favorites</string>
+    <string name="usercenter_myhistory">My History</string>
+    <string name="usercenter_name">Name</string>
+    <string name="usercenter_phone_number">Phone Number</string>
+    <string name="usercenter_profile_menu_camera">Camera</string>
+    <string name="usercenter_profile_menu_photo_library">Photo Library</string>
+    <string name="usercenter_profile_menu_photo_remove">Remove</string>
+    <string name="usercenter_profile_photo">Profile Photo</string>
+    <string name="usercenter_pull_bottom_refresh">上拉显示下一日</string>
+    <string name="usercenter_pull_bottom_release">松开显示下一日</string>
+    <string name="usercenter_pull_refresh">下拉显示上一日</string>
+    <string name="usercenter_pull_release">松开显示上一日</string>
+    <string name="usercenter_title">User Profile</string>
+    <string name="username_exist">User ID has already been registered.</string>
+    <string name="username_format">abcdefjghigklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ.</string>
+    <string name="username_isempty">Please enter User ID.</string>
+    <string name="username_length">Length of User ID should between 8-30</string>
+    <string name="username_not_match">New User ID should combination of alphanumeric characters and may include .</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="vkontakte">VK</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="vvm">VVM VOLTE</string>
+    <string name="wallet_account_top_up">Account\nTop Up</string>
+    <string name="wallet_balance_transfer">Balance\nTransfer</string>
+    <string name="wallet_installment_plan">Installment Plan</string>
+    <string name="wallet_my_bills">My Bills</string>
+    <string name="wallet_my_cards">My Cards</string>
+    <string name="wallet_pay_code">Payment Code</string>
+    <string name="wallet_pay_code_text">Your friends can transfer money\nto you by scanning this barcode</string>
+    <string name="wallet_pay_code_title">Scan</string>
+    <string name="wallet_scan">Scan</string>
+    <string name="wallet_scan_cancel">Cancel</string>
+    <string name="wallet_scan_text">Scan your friends’ barcode to\ntransfer money to their account</string>
+    <string name="wallet_service_top_up">Service\nTop Up</string>
+    <string name="wallet_soa">SOA</string>
+    <string name="wallet_statements">Statements</string>
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_top_up">Top Up</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="website">http://www.mob.com</string>
+    <string name="wechat">Wechat</string>
+    <string name="wechat_client_inavailable">Wechat client not exists or the version is too low</string>
+    <string name="wechatfavorite">Wechat Favorite</string>
+    <string name="wechatmoments">Wechat Moments</string>
+    <string name="weibo_oauth_regiseter">Authorization</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">WhatsApp client not exists or the version is too low</string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="wx_app_id">wx7e2557d7ee299a9d</string>
+    <string name="xiegang"> / </string>
+    <!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/values-en-rUS/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="yixin">Yixin</string>
+    <string name="yixin_client_inavailable">Yixin client not exists or the version is too low</string>
+    <string name="yixinmoments">Yixin Moments</string>
+    <string name="youdao">Youdao</string>
+</resources>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/include_commond_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/view_title" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/include_commond_title"
+            android:background="@color/conmmd_background"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/iv_target"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_below="@+id/drag_request_call"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/support_center_icon" >
+
+                <LinearLayout
+                    android:id="@+id/ll_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:baselineAligned="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_support_email"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/support_center_portrait" />
+
+                    <TextView
+                        android:id="@+id/tv_center_service_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24/7"
+                        android:textColor="@color/conmmd_textcolor_s"
+                        android:textSize="23sp" />
+
+                    <TextView
+                        android:id="@+id/tv_center_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/contact_us_support"
+                        android:textColor="@color/conmmd_textcolor_s"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.guofeilong.fortune.ui.view.DragRelativeLayout
+                android:id="@+id/drag_email"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                android:layout_toLeftOf="@+id/iv_target"
+                android:background="@drawable/bg_support_shape_contactus"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:baselineAligned="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_support_center"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/support_email_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/email_title"
+                        android:textColor="@color/conmmd_textcolor_s"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </com.guofeilong.fortune.ui.view.DragRelativeLayout>
+
+            <com.guofeilong.fortune.ui.view.DragRelativeLayout
+                android:id="@+id/drag_call_us"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/drag_live_chat"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/iv_target"
+                android:background="@drawable/bg_support_shape_contactus"
+                android:clickable="true" >
+
+                <LinearLayout
+                    android:id="@+id/ll_call_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:baselineAligned="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_support_call_us"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/support_callus_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_call_us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/request_call_us_title"
+                        android:textColor="@color/conmmd_textcolor_s"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </com.guofeilong.fortune.ui.view.DragRelativeLayout>
+
+            <com.guofeilong.fortune.ui.view.DragRelativeLayout
+                android:id="@+id/drag_request_call"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/drag_email"
+                android:layout_toRightOf="@+id/iv_target"
+                android:background="@drawable/bg_support_shape_contactus"
+                android:clickable="true" >
+
+                <LinearLayout
+                    android:id="@+id/ll_request_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:baselineAligned="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_support_request_call"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/support_request_call_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_request_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/request_call_title"
+                        android:textColor="@color/conmmd_textcolor_s"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </com.guofeilong.fortune.ui.view.DragRelativeLayout>
+
+            <com.guofeilong.fortune.ui.view.DragRelativeLayout
+                android:id="@+id/drag_live_chat"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignLeft="@+id/drag_email"
+                android:layout_below="@+id/iv_target"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/bg_support_shape_contactus"
+                android:clickable="true" >
+
+                <LinearLayout
+                    android:id="@+id/ll_live_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:baselineAligned="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_support_live_chat"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/support_livechat_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_live_chat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/live_chat_title"
+                        android:textColor="@color/conmmd_textcolor_s"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </com.guofeilong.fortune.ui.view.DragRelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/include_commond_title_0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_title_height" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_title_container_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/commond_title_height"
+                    android:background="@color/white" >
+
+                    <RelativeLayout
+                        android:id="@+id/center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:id="@+id/tv_question_mark"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bg_question_mark_shape_contactus"
+                            android:gravity="center"
+                            android:textColor="@color/conmmd_blue"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/commond_textview_title_name0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/tv_question_mark"
+                            android:gravity="center_vertical"
+                            android:text="@string/contact_us_faq"
+                            android:textColor="@color/conmmd_blue"
+                            android:textSize="@dimen/commond_titlebar_font_size" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_down_icon0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/icon_faq_up" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_title_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/include_commond_title_0"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="Live Web"
+                android:textColor="@color/conmmd_textcolor" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_faq_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/conmmd_background"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/include_commond_title_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_title_height" >
+
+            <RelativeLayout
+                android:id="@+id/rl_title_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_title_height"
+                android:background="@color/conmmd_background" >
+
+                <TextView
+                    android:id="@+id/commond_textview_title_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="ZoomWebView"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/commond_titlebar_font_size" />
+
+                <ImageView
+                    android:id="@+id/iv_down_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/icon_faq_down" />
+
+                <ImageView
+                    android:id="@+id/iv_line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/commond_line_height"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/conmmd_line" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.guofeilong.fortune.ui.view.SupportZoomWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/include_commond_title_1" />
+
+        <ProgressBar
+            android:id="@+id/progress_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_service_request_time"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="27/09/2014asdfsdfasfdsafdasdfsa"
+        android:textColor="@color/conmmd_textcolor_s"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:id="@+id/item_service_request_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="15" >
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="5"
+            android:background="@color/conmmd_line" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/item_service_request_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="7dp"
+                android:layout_centerInParent="true"
+                android:background="#000000" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/item_service_request_line_below"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="5"
+            android:background="@color/conmmd_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_service_request_ll_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/item_service_request_iv"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/item_service_request_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/item_service_request_id"
+                android:textColor="@color/conmmd_textcolor" />
+
+            <TextView
+                android:id="@+id/item_service_request_id_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="SR0000000LG7D"
+                android:textColor="@color/conmmd_textcolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/item_service_request_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/item_service_request_title"
+                android:textColor="@color/conmmd_textcolor" />
+
+            <TextView
+                android:id="@+id/item_service_request_title_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="SR0000000LG7D"
+                android:textColor="@color/conmmd_textcolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/item_service_request_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/item_service_request_status"
+                android:textColor="@color/conmmd_textcolor" />
+
+            <TextView
+                android:id="@+id/item_service_request_status_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="SR0000000LG7D"
+                android:textColor="@color/red" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_service_request_list.xml -->

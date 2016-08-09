@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="3" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" >
+
+            <com.guofeilong.fortune.ui.view.MarqueeTextView
+                android:id="@+id/tv_paomadeng"
+                android:layout_width="155dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_budget_value"
+                android:gravity="center"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="自定义view打造可以多点触控自由缩放的imageview,来自githup优秀案例,解决和viewpager产生的冲突问题"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5" >
+
+            <com.guofeilong.fortune.ui.view.ExtendedViewPager
+                android:id="@+id/evp_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+            </com.guofeilong.fortune.ui.view.ExtendedViewPager>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

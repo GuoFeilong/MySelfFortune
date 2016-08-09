@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/conmmd_lightgray" >
+
+    <RelativeLayout
+        android:id="@+id/rl_created_text_shape_container"
+        android:layout_width="match_parent"
+        android:layout_height="63dp" >
+
+        <TextView
+            android:id="@+id/tv_budget_control_created_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="Name"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_budget_control_created_item_content_shape"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/lv_bg_shape"
+            android:gravity="center"
+            android:text="Share wallet"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line_bg" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,647 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:2:1-366:12
+	package
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:3:5-37
+	android:versionName
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml
+		INJECTED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:7:5-10:41
+	android:targetSdkVersion
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:10:9-38
+	android:minSdkVersion
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:9:9-35
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:15:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:17:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:20:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:21:22-68
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:22:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:26:22-71
+permission#com.guofeilong.fortune.permission.JPUSH_MESSAGE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:29:5-31:47
+	android:protectionLevel
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:31:9-44
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:30:9-71
+uses-permission#com.guofeilong.fortune.permission.JPUSH_MESSAGE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:33:5-87
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:33:22-84
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:34:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:36:5-68
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:36:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:40:5-73
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:40:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:41:5-66
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:41:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:42:5-84
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:42:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:44:5-78
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:44:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:47:5-81
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:47:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:50:5-79
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:50:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:51:5-89
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:51:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:52:5-79
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:52:22-76
+application
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:54:5-364:19
+	android:label
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:57:9-41
+	android:allowBackup
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:55:9-35
+	android:icon
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:56:9-45
+	android:theme
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:58:9-40
+service#cn.jpush.android.service.PushService
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:61:9-71:19
+	android:enabled
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:63:13-35
+	android:exported
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:62:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:65:13-70:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:66:17-75
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:66:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:67:17-73
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:67:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:68:17-78
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:68:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:69:25-73
+receiver#com.guofeilong.fortune.broadcastreceiver.MyReceiver
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:73:9-92:20
+	android:enabled
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:75:13-35
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:74:13-79
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.example.test
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:76:13-91:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:77:17-79
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:77:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:79:17-81
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:79:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:80:17-83
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:80:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:82:17-88
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:82:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:84:17-86
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:84:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:86:17-91
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:86:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:88:17-77
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:88:25-74
+category#com.example.test
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:90:17-61
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:90:27-58
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:94:9-107:20
+	android:enabled
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:96:13-35
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:95:13-65
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:97:13-100:29
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:98:17-77
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:98:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:99:17-79
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:99:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:101:13-106:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:102:17-78
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:102:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:103:17-80
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:103:25-77
+data
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:105:17-50
+	android:scheme
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:105:23-47
+activity#cn.jpush.android.ui.PushActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:109:9-119:20
+	android:configChanges
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:111:13-63
+	android:theme
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:112:13-72
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:110:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.guofeilong.fortune
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:113:13-118:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:114:17-75
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:114:25-72
+category#android.intent.category.DEFAULT
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:116:17-76
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:116:27-73
+category#com.guofeilong.fortune
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:117:17-67
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:117:27-64
+service#cn.jpush.android.service.DownloadService
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:121:9-124:48
+	android:enabled
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:123:13-35
+	android:exported
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:124:13-37
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:122:13-68
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:126:9-75
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:126:19-72
+meta-data#JPUSH_CHANNEL
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:134:9-136:49
+	android:value
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:136:13-46
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:135:13-41
+meta-data#JPUSH_APPKEY
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:138:9-140:56
+	android:value
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:140:13-53
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:139:13-40
+activity#com.guofeilong.fortune.ui.StartActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:142:9-150:20
+	android:label
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:144:13-45
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:143:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:145:13-149:29
+action#android.intent.action.MAIN
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:146:17-69
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:146:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:148:17-77
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:148:27-74
+activity#com.guofeilong.fortune.ui.MainActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:151:9-153:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:152:13-66
+activity#com.guofeilong.fortune.ui.ChangeColorIconActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:154:9-156:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:156:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:155:13-77
+activity#com.guofeilong.fortune.ui.GolenCoinActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:157:9-159:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:159:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:158:13-71
+activity#com.guofeilong.fortune.ui.CustomerLoadingActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:160:9-162:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:162:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:161:13-77
+activity#com.guofeilong.fortune.ui.GridMenuActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:163:9-165:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:165:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:164:13-70
+activity#com.guofeilong.fortune.ui.FlowLayoutActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:166:9-168:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:168:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:167:13-72
+activity#com.guofeilong.fortune.ui.GuideLineActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:169:9-171:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:171:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:170:13-71
+activity#com.guofeilong.fortune.ui.RechargeActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:172:9-174:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:174:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:173:13-70
+activity#com.guofeilong.fortune.ui.CustomProgressBarActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:175:9-177:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:177:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:176:13-79
+activity#com.guofeilong.fortune.ui.WheelPickerActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:178:9-180:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:179:13-73
+activity#com.guofeilong.fortune.ui.OneByOneTransferAniaActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:181:9-183:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:183:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:182:13-82
+activity#com.guofeilong.fortune.ui.SpeedUpActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:184:9-186:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:185:13-69
+activity#com.guofeilong.fortune.ui.SettingActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:187:9-189:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:189:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:188:13-69
+activity#com.guofeilong.fortune.ui.ChangeLanguageActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:190:9-192:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:192:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:191:13-76
+activity#com.guofeilong.fortune.ui.ChartActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:193:9-195:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:195:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:194:13-67
+activity#com.guofeilong.fortune.ui.PieMenuAndBeatNumTextActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:196:9-198:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:198:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:197:13-83
+activity#com.guofeilong.fortune.ui.CountDownActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:199:9-201:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:201:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:200:13-71
+activity#com.guofeilong.fortune.ui.PatternSettingActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:202:9-204:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:204:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:203:13-76
+activity#com.guofeilong.fortune.ui.PatternPasswordActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:205:9-207:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:206:13-77
+activity#com.guofeilong.fortune.ui.DragRelativAndZoomWebviewActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:208:9-210:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:209:13-87
+activity#com.guofeilong.fortune.ui.SideBarActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:211:9-213:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:212:13-69
+activity#com.guofeilong.fortune.ui.WipeActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:214:9-216:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:215:13-66
+activity#com.guofeilong.fortune.ui.MyDialogActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:217:9-220:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:219:13-49
+	android:theme
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:220:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:218:13-70
+activity#com.guofeilong.fortune.ui.BeatLoadingActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:221:9-223:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:222:13-73
+activity#com.guofeilong.fortune.ui.WechartV5Activity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:224:9-226:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:225:13-71
+activity#com.guofeilong.fortune.ui.WechartV6Activity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:227:9-229:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:229:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:228:13-71
+activity#com.guofeilong.fortune.ui.AnimationAndAnimatorActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:230:9-232:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:232:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:231:13-82
+activity#com.guofeilong.fortune.ui.AsyTaskImageActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:233:9-235:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:235:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:234:13-74
+activity#com.guofeilong.fortune.ui.WeChartAudioActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:236:9-238:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:238:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:237:13-74
+activity#com.guofeilong.fortune.ui.VolleyTestActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:239:9-241:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:241:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:240:13-72
+activity#com.guofeilong.fortune.ui.SurfaceViewActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:242:9-244:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:243:13-73
+activity#com.guofeilong.fortune.ui.BidirSlidingLayoutActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:245:9-247:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:247:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:246:13-80
+activity#com.guofeilong.fortune.ui.IntelligentRobotActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:248:9-250:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:250:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:249:13-78
+activity#com.guofeilong.fortune.ui.WechatGroupIconActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:251:9-253:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:253:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:252:13-77
+activity#com.guofeilong.fortune.ui.ZoomImagetViewActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:254:9-256:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:256:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:255:13-76
+activity#com.guofeilong.fortune.ui.WechartShakeActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:257:9-259:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:259:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:258:13-74
+activity#com.guofeilong.fortune.ui.AndroidLoopButtonActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:260:9-262:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:262:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:261:13-79
+activity#com.guofeilong.fortune.ui.ViewDragHelperActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:263:9-265:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:265:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:264:13-76
+activity#com.guofeilong.fortune.ui.PinnedHeaderExpendActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:266:9-268:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:268:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:267:13-80
+activity#com.guofeilong.fortune.ui.RecyclerViewActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:269:9-271:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:271:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:270:13-74
+activity#com.guofeilong.fortune.ui.LotteryActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:272:9-274:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:274:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:273:13-69
+activity#com.guofeilong.fortune.ui.CanvasActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:275:9-277:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:277:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:276:13-68
+activity#com.guofeilong.fortune.ui.PercentLayoutActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:278:9-280:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:280:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:279:13-75
+activity#com.guofeilong.fortune.ui.ComponentActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:281:9-283:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:283:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:282:13-49
+activity#com.guofeilong.fortune.ui.ArrawButtonActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:284:9-286:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:286:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:285:13-51
+activity#com.guofeilong.fortune.ui.XiaoMaIntroDemo
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:287:9-289:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:289:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:288:13-47
+activity#com.guofeilong.fortune.ui.WheelViewActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:290:9-292:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:292:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:291:13-49
+activity#com.guofeilong.fortune.ui.WheelViewTwoActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:293:9-295:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:295:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:294:13-52
+activity#com.guofeilong.fortune.ui.TimeZoneActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:296:9-298:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:298:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:297:13-48
+activity#com.guofeilong.fortune.ui.TagFlowLayoutActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:299:9-301:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:301:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:300:13-53
+activity#com.guofeilong.fortune.ui.QQaiteActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:302:9-304:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:304:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:303:13-46
+activity#com.guofeilong.fortune.ui.RefreshActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:305:9-307:52
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:307:13-49
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:306:13-47
+activity#com.guofeilong.fortune.ui.ViewScrollActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:308:9-59
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:308:19-56
+activity#com.guofeilong.fortune.wxapi.WXEntryActivity
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:310:9-313:61
+	android:screenOrientation
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:313:13-49
+	android:exported
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:312:13-36
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:311:13-72
+activity#cn.sharesdk.framework.ShareSDKUIShell
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:314:9-363:20
+	android:windowSoftInputMode
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:318:13-67
+	android:configChanges
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:316:13-74
+	android:theme
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:317:13-72
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:315:13-65
+meta-data#AuthorizeAdapter
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:325:13-327:71
+	android:value
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:327:17-68
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:326:17-48
+meta-data#QZoneWebShareAdapter
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:333:13-335:75
+	android:value
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:335:17-72
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:334:17-52
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:341:13-348:29
+action#android.intent.action.VIEW
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:344:17-69
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:344:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:346:17-78
+	android:name
+		ADDED from /Users/jsion/AndroidStudioPersonal/MySelfFortune/AndroidManifest.xml:346:27-75

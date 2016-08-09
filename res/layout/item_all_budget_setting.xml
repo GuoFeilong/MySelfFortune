@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1" >
+
+            <TextView
+                android:id="@+id/tv_business_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="YouTuBE"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/budet_allbusiness_textsize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_budget_setvalue"
+                android:layout_width="66dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bg_budget_value"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.05" >
+
+            <TextView
+                android:id="@+id/tv_budget_set_notice"
+                android:layout_width="66dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bg_budget_value"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" >
+
+            <CheckBox
+                android:id="@+id/cb_is_service"
+                android:background="@drawable/checkbox_style"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:button="@null"
+                android:checked="false" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <solid android:color="@color/demo_title1" />
+
+</shape><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/drawable/bg_demo_circle1.xml -->

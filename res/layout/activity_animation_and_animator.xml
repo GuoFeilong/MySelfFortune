@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="6" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <com.guofeilong.fortune.ui.view.CustomCircleIcon
+                android:id="@+id/circleicon_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                gfl:circle_icon="@drawable/gridview_icon_01s_wallet"
+                gfl:circle_icon_solid_color="@color/demo_title7"
+                gfl:circle_icon_stroke_color="@color/conmmd_line" />
+
+            <TextView
+                android:id="@+id/tv_start_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_demo_circle4"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Start"
+                android:textSize="10sp" />
+
+            <com.guofeilong.fortune.ui.view.MarqueeTextView
+                android:id="@+id/tv_paomadeng1"
+                android:layout_width="135dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_budget_value"
+                android:gravity="center"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Tween动画实现;加入Bounce插值器,它是android不断在界面绘制实现的,比较消耗内存,view的位置并没有真正的改变.."
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <com.guofeilong.fortune.ui.view.CustomCircleIcon
+                android:id="@+id/circleicon_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                gfl:circle_icon="@drawable/gridview_icon_03_data_usage"
+                gfl:circle_icon_solid_color="@color/demo_title2"
+                gfl:circle_icon_stroke_color="@color/conmmd_line" />
+
+            <com.guofeilong.fortune.ui.view.MarqueeTextView
+                android:id="@+id/tv_paomadeng2"
+                android:layout_width="135dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_budget_value"
+                android:gravity="center"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="属性动画,真正的改变的view的属性,效率比较高,也更丰富"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_start_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_demo_circle8"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Start"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4" >
+
+            <com.guofeilong.fortune.ui.view.CustomCircleIcon
+                android:id="@+id/menu1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7.5dp"
+                android:clickable="true"
+                gfl:circle_icon="@drawable/gridview_icon_01s_wallet"
+                gfl:circle_icon_solid_color="@color/white"
+                gfl:circle_icon_stroke_color="@color/conmmd_line" />
+
+            <com.guofeilong.fortune.ui.view.CustomCircleIcon
+                android:id="@+id/menu2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7.5dp"
+                android:clickable="true"
+                gfl:circle_icon="@drawable/gridview_icon_02s_friends"
+                gfl:circle_icon_solid_color="@color/white"
+                gfl:circle_icon_stroke_color="@color/conmmd_line" />
+
+            <com.guofeilong.fortune.ui.view.CustomCircleIcon
+                android:id="@+id/menu3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7.5dp"
+                android:clickable="true"
+                gfl:circle_icon="@drawable/gridview_icon_04s_discovery"
+                gfl:circle_icon_solid_color="@color/white"
+                gfl:circle_icon_stroke_color="@color/conmmd_line" />
+
+            <com.guofeilong.fortune.ui.view.CustomCircleIcon
+                android:id="@+id/menu4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7.5dp"
+                android:clickable="true"
+                gfl:circle_icon="@drawable/gridview_icon_07_transfer"
+                gfl:circle_icon_solid_color="@color/white"
+                gfl:circle_icon_stroke_color="@color/conmmd_line" />
+
+            <TextView
+                android:id="@+id/tv_menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_demo_circle6"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Menu"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/conmmd_lightgray"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <TextView
+        android:id="@+id/tv_turbo_boost_title_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include_commond_title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Speed up your network from low to high"
+        android:textColor="@color/conmmd_textcolor" />
+
+    <RelativeLayout
+        android:id="@+id/voice_cicle_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_turbo_boost_title_des"
+        android:layout_centerHorizontal="true" >
+
+        <com.asiainfo.rtss.ui.view.AngularGaugeView
+            android:id="@+id/turbo_boost_biaopan"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_needle"
+                android:tag="needle" />
+
+            <ImageView
+                android:layout_width="26.0dip"
+                android:layout_height="26.0dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_heart" />
+        </com.asiainfo.rtss.ui.view.AngularGaugeView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/ll_turbo_boost_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_turbo_boost.xml -->

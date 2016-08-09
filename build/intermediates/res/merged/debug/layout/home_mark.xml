@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/home_mark_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/home_mark_serviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/home_mark_name"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/home_mark_remaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/home_mark_serviceid"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:singleLine="true"
+        android:text="@string/main_homen_mark_banlance"
+        android:textColor="@color/conmmd_textcolor_s"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/home_mark_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/home_mark_remaining"
+        android:gravity="right"
+        android:maxLength="15"
+        android:singleLine="true"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/home_mark_value"
+        android:background="@drawable/remainingmark" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/home_mark.xml -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.view.CircleImageView
+        android:id="@+id/civ_usericon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/include_commond_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/default_portrait" />
+
+    <TextView
+        android:id="@+id/tv_lock_pattern_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/civ_usericon"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Draw an unlock pattern"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="@dimen/set_left_title" />
+
+    <com.guofeilong.fortune.ui.view.PatternSettingView
+        android:id="@+id/lpv_lockPattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_lock_pattern_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/tv_forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lpv_lockPattern"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="forget password"
+        android:textColor="@color/graywhite"
+        android:textSize="14sp" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_lockpattern.xml -->

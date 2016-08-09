@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_mobile_usage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/include_commond_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="Paul 080 8030001"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="Balance 120"
+            android:textColor="@color/qingse"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout_mobile_usage_center"
+        android:layout_width="@dimen/moblie_usage_circle_center_diameter"
+        android:layout_height="@dimen/moblie_usage_circle_center_diameter"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_circle_mobile_usage" >
+
+        <ImageView
+            android:id="@+id/iv_mobile_usage_center_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/icon_subscriber_wifi" />
+
+        <TextView
+            android:id="@+id/tv_mobile_usage_center_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="-5dp"
+            android:layout_below="@+id/iv_mobile_usage_center_icon"
+            android:layout_centerHorizontal="true"
+            android:text="none"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_mobile_usage_center_arrow"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_mobile_usage_center_name"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mobile_usage_center_arrow" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_mobile_usage_center_sub_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout_mobile_usage_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/conmmd_textcolor" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@drawable/line" />
+
+    <include
+        android:id="@+id/ll_mobile_usage_data_circle2"
+        android:layout_width="@dimen/moblie_usage_circle_diameter"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/relayout_mobile_usage_center"
+        android:gravity="center"
+        layout="@layout/item_balance_circle"
+        android:orientation="vertical" />
+
+    <include
+        android:id="@+id/ll_mobile_usage_data_circle4"
+        android:layout_width="@dimen/moblie_usage_circle_diameter"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include_commond_title"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        layout="@layout/item_balance_circle"
+        android:orientation="vertical" />
+
+    
+
+    <include
+        android:id="@+id/ll_mobile_usage_data_circle1"
+        android:layout_width="@dimen/moblie_usage_circle_diameter"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ll_mobile_usage_data_circle4"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-15dp"
+        android:layout_toRightOf="@+id/ll_mobile_usage_data_circle4"
+        android:gravity="center"
+        layout="@layout/item_balance_circle"
+        android:orientation="vertical" />
+
+    <include
+        android:id="@+id/ll_mobile_usage_data_circle5"
+        android:layout_width="@dimen/moblie_usage_circle_diameter"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relayout_mobile_usage_center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        layout="@layout/item_balance_circle"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/ll_mobile_usage_data_circle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_mobile_usage_center_sub_name"
+        android:layout_marginLeft="-30dp"
+        android:layout_toRightOf="@+id/relayout_mobile_usage_center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/moblie_usage_circle_diameter"
+            android:layout_height="@dimen/moblie_usage_circle_diameter"
+            android:background="@drawable/bg_circle_mobile_usage"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="MORE"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/moblie_usage_circle_font_title" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ll_mobile_usage_data_circle3"
+        android:layout_width="@dimen/moblie_usage_circle_diameter"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/relayout_mobile_usage_center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-30dp"
+        android:layout_toRightOf="@+id/relayout_mobile_usage_center"
+        android:gravity="center"
+        layout="@layout/item_balance_circle"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>

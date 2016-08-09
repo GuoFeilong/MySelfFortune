@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@+id/fl_portrait_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/rl_manager_portrait_container"
+            android:layout_width="@dimen/budget_managerment_icon_height"
+            android:layout_height="@dimen/budget_managerment_icon_height"
+            android:background="@drawable/bg_portrait_shape" >
+
+            <com.asiainfo.rtss.ui.view.CircleImageView
+                android:id="@+id/civ_manager_portrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iv_member_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/budget_group_delete"
+                android:clickable="true"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_manager_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_portrait_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Edsion"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="13sp" />
+
+</RelativeLayout>

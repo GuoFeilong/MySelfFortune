@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_very_lightgray"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/service_add_include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:layout_marginTop="15dp"
+        android:background="@color/conmmd_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/service_request_add_ll"
+        android:background="@color/conmmd_tittle_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/service_request_add_service"
+            android:textColor="@color/conmmd_textcolor" />
+
+        <TextView
+            android:id="@+id/service_add_service_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:clickable="true"
+            android:drawableRight="@drawable/bg_next"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:text="Vvm Volte"
+            android:textColor="@color/conmmd_textcolor_s" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/service_request_add_ll"
+        android:background="@color/conmmd_tittle_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/service_request_add_category"
+            android:textColor="@color/conmmd_textcolor" />
+
+        <TextView
+            android:id="@+id/service_add_category_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:clickable="true"
+            android:drawableRight="@drawable/bg_next"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:text="Device"
+            android:textColor="@color/conmmd_textcolor_s" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/service_request_add_ll"
+        android:background="@color/conmmd_tittle_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/service_request_add_sub_category"
+            android:textColor="@color/conmmd_textcolor" />
+
+        <TextView
+            android:id="@+id/service_add_sub_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:clickable="true"
+            android:drawableRight="@drawable/bg_next"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:text="Connectiontivity"
+            android:textColor="@color/conmmd_textcolor_s" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/service_request_add_ll"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/service_request_add_sub_sub_category"
+            android:textColor="@color/conmmd_textcolor" />
+
+        <TextView
+            android:id="@+id/service_add_sub_sub_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:clickable="true"
+            android:drawableRight="@drawable/bg_next"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:text="Connecting But Connecting But Connecting But"
+            android:textColor="@color/conmmd_textcolor_s" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:layout_marginTop="15dp"
+        android:background="@color/conmmd_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/conmmd_tittle_white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/item_service_request_title"
+            android:textColor="@color/conmmd_textcolor" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/conmmd_tittle_white"
+        android:paddingBottom="13dp" >
+
+        <EditText
+            android:id="@+id/service_add_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/lv_bg_shape_new_style"
+            android:hint=""
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:text=""
+            android:textColor="@color/conmmd_textcolor_s" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/conmmd_tittle_white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/service_request_item_description"
+            android:textColor="@color/conmmd_textcolor" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/conmmd_tittle_white"
+        android:paddingBottom="13dp" >
+
+        <EditText
+            android:id="@+id/service_add_description"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/lv_bg_shape_new_style"
+            android:gravity="top|left"
+            android:hint=""
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:text=""
+            android:textColor="@color/conmmd_textcolor_s" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <TextView
+        android:id="@+id/service_add_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+        
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_yellow_selector"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/button_submit"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="17sp" />
+
+</LinearLayout>

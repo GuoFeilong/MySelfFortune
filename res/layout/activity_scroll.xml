@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <com.guofeilong.fortune.ui.view.ScrollTextView
+            android:id="@+id/stv_scroll"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_demo_circle3"
+            android:gravity="center"
+            android:text="改变params滑动"
+            android:textColor="@color/demo_title1"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <com.guofeilong.fortune.ui.view.TreeView xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+            android:id="@+id/tree_view"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            gfl:tree_view_line_color="@color/conmmd_line"
+            gfl:tree_view_text_color="@color/conmmd_textcolor"
+            gfl:tree_view_text_size="10sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

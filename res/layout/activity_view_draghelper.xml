@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.view.ViewDragHelperLayout
+        android:id="@+id/vdhl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="3" >
+
+        <com.guofeilong.fortune.ui.view.TopDrawableEditText
+            xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+            android:id="@+id/et_2"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_budget_sub_value"
+            android:focusable="true"
+            android:padding="3dp"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="12sp"
+            gfl:top_icon="@drawable/change_password" >
+        </com.guofeilong.fortune.ui.view.TopDrawableEditText>
+    </com.guofeilong.fortune.ui.view.ViewDragHelperLayout>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.view.CustomWipeView
+        android:id="@+id/wipe_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        gfl:image_after="@drawable/bg_start"
+        gfl:image_befor="@drawable/traffic_mouth_newbigpie"
+        gfl:titleText="Custom wipe view"
+        gfl:titleTextColor="@color/conmmd_textcolor"
+        gfl:titleTextSize="14sp" />
+
+    <com.guofeilong.fortune.ui.view.MarqueeTextView
+        android:id="@+id/tv_paomadeng"
+        android:layout_width="155dp"
+        android:layout_height="25dp"
+        android:layout_above="@id/wipe_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_budget_value"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="自定义view,attr自定义属性使用;包括1,前景,2背景,3文字,4颜色都可以当作属性传入,理解canvas的系统和自定义的不同作用.创建空白bitmap用来时时改变并绘制到系统的canvas中"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="10sp" />
+
+    <com.guofeilong.fortune.ui.view.MarqueeTextView
+        android:id="@+id/tv_paomadeng2"
+        android:layout_width="155dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/wipe_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_budget_value"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="自定义view,可以改变填充色,描边色,自定义icon的view,在构造中获取属性,在onsizechange中获取宽高,在ondraw 计算绘制"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="10sp" />
+
+    <com.guofeilong.fortune.ui.view.CustomCircleIcon
+        android:id="@+id/circleicon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        gfl:circle_icon="@drawable/gridview_icon_01s_wallet"
+        gfl:circle_icon_solid_color="@color/white"
+        gfl:circle_icon_stroke_color="@color/conmmd_line" />
+
+    <com.guofeilong.fortune.ui.view.CustomCircleIcon
+        android:id="@+id/circleicon1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        gfl:circle_icon="@drawable/gridview_icon_03s_budget"
+        gfl:circle_icon_solid_color="@color/demo_title7"
+        gfl:circle_icon_stroke_color="@color/demo_title2" />
+
+    <com.guofeilong.fortune.ui.view.CustomCircleIcon
+        android:id="@+id/circleicon2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        gfl:circle_icon="@drawable/gridview_icon_06s_support"
+        gfl:circle_icon_solid_color="@color/conmmd_blue"
+        gfl:circle_icon_stroke_color="@color/conmmd_yellow" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_wipe.xml -->

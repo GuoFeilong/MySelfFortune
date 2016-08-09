@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_tittle_white" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/service_request_rl_menu"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/include_commond_title" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/service_requset_bt_pre_mouth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/mouth_left"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor_s" />
+
+            <TextView
+                android:id="@+id/service_requset_bt_current_mouth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor_s" />
+
+            <TextView
+                android:id="@+id/service_requset_bt_next_mouth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mouth_right"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor_s" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:id="@+id/service_request_add_icon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="65dp"
+                android:background="@drawable/circle_bg_gray_big"
+                android:padding="22dp"
+                android:src="@drawable/service_request_plus" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/service_request_add_icon"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1.5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingRight="1dp" >
+
+                        <TextView
+                            android:id="@+id/service_request_btn_all"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lv_bg_shape_darkgray_edge_white"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="@string/service_request_all"
+                            android:textColor="@color/conmmd_blue"
+                            android:textSize="9sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="1dp"
+                        android:paddingRight="1dp" >
+
+                        <TextView
+                            android:id="@+id/service_request_btn_open"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lv_bg_shape_darkgray_edge_gray"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="@string/service_request_open"
+                            android:textColor="@color/conmmd_textcolor_s"
+                            android:textSize="9sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="1dp" >
+
+                        <TextView
+                            android:id="@+id/service_request_btn_closed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lv_bg_shape_darkgray_edge_gray"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="@string/service_request_closed"
+                            android:textColor="@color/conmmd_textcolor_s"
+                            android:textSize="9sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1.5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingRight="1dp" >
+
+                        <TextView
+                            android:id="@+id/service_request_btn_queries"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lv_bg_shape_darkgray_edge_gray"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="@string/service_request_queries"
+                            android:textColor="@color/conmmd_textcolor_s"
+                            android:textSize="9sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="1dp"
+                        android:paddingRight="1dp" >
+
+                        <TextView
+                            android:id="@+id/service_request_btn_requests"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lv_bg_shape_darkgray_edge_gray"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="@string/service_request_requests"
+                            android:textColor="@color/conmmd_textcolor_s"
+                            android:textSize="9sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="1dp" >
+
+                        <TextView
+                            android:id="@+id/service_request_btn_complains"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lv_bg_shape_darkgray_edge_gray"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="@string/service_request_complains"
+                            android:textColor="@color/conmmd_textcolor_s"
+                            android:textSize="9sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/service_request_rl_menu"
+        android:background="@color/conmmd_lightgray" >
+
+        <ImageView
+            android:id="@+id/service_request_iv_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentTop="true"
+            android:background="@color/conmmd_line" />
+
+        <ListView
+            android:id="@+id/service_request_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/service_request_iv_line"
+            android:divider="@null"
+            android:listSelector="@color/transparent" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

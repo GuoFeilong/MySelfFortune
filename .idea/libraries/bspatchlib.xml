@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bspatchlib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/bspatchlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

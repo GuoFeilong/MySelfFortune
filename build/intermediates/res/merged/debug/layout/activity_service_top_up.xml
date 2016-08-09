@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_geduan"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/conmmd_very_lightgray" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_geduan"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:id="@+id/re_service"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/pd_text_height"
+            android:layout_alignParentLeft="true" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/service_top_up_desc"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <TextView
+                android:id="@+id/tv_select_service_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/bg_recharge_down"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <ImageView
+                android:id="@+id/im_line"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/conmmd_line" />
+
+            <TextView
+                android:id="@+id/tv_sevicetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/tv_select_service_id"
+                android:clickable="true"
+                android:textColor="@color/conmmd_textcolor_t"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_name"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/pd_text_height"
+            android:layout_below="@id/re_service" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/conmmd_line" />
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/currency_sign_service"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <TextView
+                android:id="@+id/tv_balance_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/rupee_margin"
+                android:layout_marginRight="@dimen/rupee_margin"
+                android:layout_toRightOf="@+id/balance"
+                android:gravity="center_vertical"
+                android:text="@string/currency_sign"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <TextView
+                android:id="@+id/topup_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_balance_sign"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_geduan2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/re_name"
+            android:background="@color/conmmd_very_lightgray" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/rl_geduan2"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/service_top_up_amout_hide"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/pd_text_height"
+            android:layout_below="@id/re_amount"
+            android:layout_marginTop="10dip" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/lv_bg_shape_new_style" >
+
+                <TextView
+                    android:id="@+id/tv_india_currency_sigh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="@dimen/rupee_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/currency_sign"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+                <EditText
+                    android:id="@+id/et_service_topup_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_india_currency_sigh"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:inputType="numberDecimal"
+                    android:maxLength="11"
+                    android:minHeight="50dp"
+                    android:text=""
+                    android:textColor="@color/conmmd_textcolor_s"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rl_amount"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativeLayout1" >
+
+        <Button
+            android:id="@+id/button_balance_transfer"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_yellow_selector"
+            android:gravity="center"
+            android:text="@string/button_pay"
+            android:textColor="@color/conmmd_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_service_top_up.xml -->

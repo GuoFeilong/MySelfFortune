@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_darkgray" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:layout_centerHorizontal="true"
+        android:background="@color/conmmd_lightgray" >
+
+        <com.asiainfo.rtss.ui.view.CircleImageView
+            android:id="@+id/login_image"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/login_image_top"
+            android:src="@drawable/default_portrait_for_login" />
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_below="@id/login_image"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="@dimen/login_user_top"
+            android:background="@drawable/lv_bga_shape"
+            android:drawablePadding="10dip"
+            android:gravity="center_vertical|left"
+            android:hint="@string/hint_name"
+            android:inputType="textVisiblePassword"
+            android:maxLength="30"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textColorHint="@color/conmmd_textcolor_t"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_alignLeft="@+id/login_username"
+            android:layout_alignRight="@+id/login_username"
+            android:layout_below="@+id/login_username"
+            android:layout_marginTop="-4dp"
+            android:background="@drawable/lv_bgb_shape"
+            android:drawablePadding="10dip"
+            android:gravity="center_vertical|left"
+            android:hint="@string/hint_paw"
+            android:inputType="textPassword"
+            android:maxLength="30"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textColorHint="@color/conmmd_textcolor_t"
+            android:textSize="17sp" >
+        </EditText>
+
+        <RelativeLayout
+            android:id="@+id/rl_checkbox"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_below="@id/login_password"
+            android:layout_marginTop="@dimen/login_auto_top" >
+
+            <CheckBox
+                android:id="@+id/login_checkbox_remember"
+                style="@style/CustomCheckboxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="35dp"
+                android:checked="false" />
+
+            <TextView
+                android:id="@+id/login_autologin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/login_auto_tolefts"
+                android:layout_toRightOf="@+id/login_checkbox_remember"
+                android:clickable="true"
+                android:text="@string/login_dialog_autologin"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_checkbox"
+            android:layout_marginTop="@dimen/login_bt_top" >
+
+            <Button
+                android:id="@+id/button_balance_transfer"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_yellow_selector"
+                android:text="@string/button_login_ok"
+                android:textColor="@color/conmmd_black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/login_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/login_help_top"
+            android:gravity="center_horizontal"
+            android:text="@string/login_help"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_login.xml -->

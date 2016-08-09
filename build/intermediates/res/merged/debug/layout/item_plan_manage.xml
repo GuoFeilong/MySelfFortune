@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_quick_order_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/item_plan_manage_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Primium plan"
+            android:textColor="@color/m_font_color_my"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/item_plan_manage_btn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_yellow_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Personalize"
+            android:textColor="@color/conmmd_black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/lvitem_manageplan_bg"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/item_plan_manage_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="8dp"
+            android:text="€35.00"
+            android:textColor="@color/conmmd_blue"
+            android:textSize="@dimen/price_textsize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/item_plan_manage_price"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/item_plan_manage_detail_0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/phone"
+                    android:gravity="left|center_vertical"
+                    android:text="1000"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/list_textsize" />
+
+                <TextView
+                    android:id="@+id/item_plan_manage_detail_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/phone"
+                    android:gravity="left|center_vertical"
+                    android:text="1000"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/list_textsize" />
+
+                <TextView
+                    android:id="@+id/item_plan_manage_detail_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/phone"
+                    android:gravity="left|center_vertical"
+                    android:text="1000"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/list_textsize" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="3dp"
+                android:background="@color/conmmd_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/item_plan_manage_detail_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/phone"
+                    android:gravity="left|center_vertical"
+                    android:text="1000"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/list_textsize" />
+
+                <TextView
+                    android:id="@+id/item_plan_manage_detail_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/phone"
+                    android:gravity="left|center_vertical"
+                    android:text="1000"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/list_textsize" />
+
+                <TextView
+                    android:id="@+id/item_plan_manage_detail_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/phone"
+                    android:gravity="left|center_vertical"
+                    android:text="1000"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/list_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_plan_manage.xml -->

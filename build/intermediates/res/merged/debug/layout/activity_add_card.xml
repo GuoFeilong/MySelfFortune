@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_darkgray" >
+
+    <include
+        android:id="@+id/activity_add_card_include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_add_card_include_commond_title"
+        android:background="@color/conmmd_lightgray" 
+        >
+          <TextView
+            android:id="@+id/activity_add_card_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/activity_add_card_et_name"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/activity_add_card_name"
+            android:textColor="#b2bdc1"
+            android:textSize="15sp" />
+            <EditText
+                android:id="@+id/activity_add_card_et_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/lv_bg_shape_new_style"
+                android:ems="10"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="17sp" 
+                android:hint="@string/activity_add_card_name_hint"
+                android:layout_below="@id/activity_add_card_tv_name"/>
+            <TextView
+                android:id="@+id/cardno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/activity_add_card_number"
+                android:textColor="#b2bdc1"
+                android:textSize="15sp"
+                android:layout_below="@id/activity_add_card_et_name" />
+
+            <EditText
+                android:id="@+id/activity_add_card_et_card_num"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/lv_bg_shape_new_style"
+                android:ems="10"
+                android:inputType="number"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" 
+                android:hint="@string/activity_add_card_number_hint"
+                android:layout_below="@id/cardno"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="45dp" >
+
+            <Button
+                android:id="@+id/activity_add_card_bt_next"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_yellow_selector"
+                android:text="@string/activity_add_card_next"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+      
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_add_card.xml -->

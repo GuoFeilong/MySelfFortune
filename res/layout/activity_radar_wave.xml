@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_lightgray" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_commond_title" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/item_wave" />
+
+        <com.asiainfo.rtss.ui.view.CircleImageView
+            android:id="@+id/iv_user_portrait"
+            android:layout_width="@dimen/exchange_wave_diameter"
+            android:layout_height="@dimen/exchange_wave_diameter"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/default_portrait" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_user_portrait"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <include
+            android:id="@+id/exchange_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            layout="@layout/item_radar_circle"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/exchange_portrait01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_user_portrait"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/iv_user_portrait"
+            layout="@layout/item_radar_circle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/exchange_portrait02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_user_portrait"
+            android:layout_alignRight="@+id/iv_user_portrait"
+            android:layout_marginBottom="70dp"
+            layout="@layout/item_radar_circle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/exchange_portrait03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_user_portrait"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="27dp"
+            layout="@layout/item_radar_circle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/exchange_portrait04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/exchange_portrait01"
+            android:layout_alignTop="@+id/iv_user_portrait"
+            android:layout_marginTop="74dp"
+            layout="@layout/item_radar_circle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/exchange_portrait05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iv_user_portrait"
+            android:layout_below="@+id/exchange_portrait04"
+            layout="@layout/item_radar_circle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/exchange_portrait06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/exchange_portrait04"
+            android:layout_alignLeft="@+id/exchange_portrait03"
+            android:layout_marginBottom="17dp"
+            layout="@layout/item_radar_circle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

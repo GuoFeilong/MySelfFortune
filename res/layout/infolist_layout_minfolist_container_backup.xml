@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_muilist_backgroud_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/include_layout_infolist_title"
+        layout="@layout/infolist_layout_minfolist_title"></include>
+
+    <!-- 引入inforlist 头布局 linearlayout 动态添加 text内容区域
+            默认上来加载搜索模式 代码引入第一个text样式，根据点击事件更改view 内容
+        -->
+    <LinearLayout
+        android:id="@+id/ll_muilist_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    </LinearLayout>
+
+    <!--编辑展开模式下可以使用添加一组内容文本区域-->
+    <ImageView
+        android:id="@+id/iv_muilist_add_text_component"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:src="@drawable/bg_muilist_icon_add_text" />
+</LinearLayout>

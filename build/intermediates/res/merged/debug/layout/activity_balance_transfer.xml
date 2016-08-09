@@ -1,0 +1,319 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_very_lightgray" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <ImageView
+        android:id="@+id/iv_xxxxxx"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:layout_below="@id/include_commond_title"
+        android:layout_marginTop="20dp"
+        android:background="@color/conmmd_line" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_xxxxxx"
+        android:layout_centerHorizontal="true"
+        android:background="@color/conmmd_background" >
+
+        <RelativeLayout
+            android:id="@+id/re_service"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/pd_text_height"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pd_text_height"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/balance_transfer_service"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <TextView
+                android:id="@+id/tv_balance_transfer_service_id"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pd_text_height"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/bg_recharge_down"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <ImageView
+                android:id="@+id/im_line"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qqq"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/pd_text_height"
+            android:layout_below="@id/re_service"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/balancetransfer_amount"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <TextView
+                android:id="@+id/tv_balance_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/rupee_margin"
+                android:layout_marginRight="@dimen/rupee_margin"
+                android:layout_toRightOf="@+id/tv_balance"
+                android:gravity="center_vertical"
+                android:text="@string/currency_sign"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <TextView
+                android:id="@+id/tv_balance_mount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dip"
+                android:layout_toRightOf="@+id/tv_balance_sign"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_below="@id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:id="@+id/re_server"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/balance_transfer_to"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_server"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/re_server" >
+
+            <EditText
+                android:id="@+id/to_contact"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/lv_bg_shape_new_style"
+                android:ems="12"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:maxLength="12"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="@dimen/commond_titlebar_font_size_right"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_contact"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:src="@drawable/button_transfer_friend_d"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:id="@+id/amount_label"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/balance_transfer_title"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/commond_titlebar_font_size_right" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/amount_label"
+            android:layout_marginTop="0dip" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/lv_bg_shape_new_style" >
+
+                <TextView
+                    android:id="@+id/tv_india_currency_sigh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="@dimen/rupee_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/currency_sign"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+                <EditText
+                    android:id="@+id/amount_transfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_india_currency_sigh"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:minHeight="50dp"
+                    android:text=""
+                    android:textColor="@color/conmmd_textcolor_s"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:layout_alignParentLeft="true"
+        android:background="@color/conmmd_line" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout3" >
+
+        <Button
+            android:id="@+id/button_balance_transfer"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_yellow_selector"
+            android:gravity="center"
+            android:text="@string/button_Transfer"
+            android:textColor="@color/conmmd_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/relativeLayout2"
+        android:background="@color/conmmd_line" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:background="@color/conmmd_line" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/commond_line_height"
+        android:layout_alignBottom="@+id/relativeLayout3"
+        android:layout_alignParentLeft="true"
+        android:background="@color/conmmd_line" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_balance_transfer.xml -->

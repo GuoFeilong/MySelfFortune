@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <ListView
+        android:id="@+id/lv_budget_control_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/conmmd_lightgray"
+        android:divider="@color/conmmd_line"
+        android:dividerHeight="@dimen/commond_line_height"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_budget_control.xml -->

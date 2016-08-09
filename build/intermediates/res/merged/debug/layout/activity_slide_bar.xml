@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:orientation="vertical" >
+
+        <com.guofeilong.fortune.ui.view.ClearEditText
+            android:id="@+id/filter_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dip"
+            android:background="@drawable/lv_bg_shape"
+            android:drawableLeft="@drawable/search_bar_icon_normal"
+            android:hint="@string/activity_friends_et_hint"
+            android:imeOptions="actionDone"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:singleLine="true"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="@dimen/set_left_title" />
+
+        <ImageView
+            android:id="@+id/iv_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:background="@color/conmmd_line" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/friends_lv_friends"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:divider="@null"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+                <ImageView
+                    android:id="@+id/im_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/commond_line_height"
+                    android:background="@color/conmmd_line" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title_layout_no_friends"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="right|top"
+                android:background="@color/conmmd_lightgray"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/friends_no_friends"
+                android:textColor="@color/conmmd_textcolor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/friends_index_letter_dialog"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_dialog_shape"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30.0dip"
+                android:visibility="invisible" />
+
+            <com.guofeilong.fortune.ui.view.SideBar
+                android:id="@+id/friends_side_bar"
+                android:layout_width="30.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_slide_bar.xml -->

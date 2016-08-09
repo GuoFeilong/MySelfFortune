@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_usercenter_dialog"
+    android:layout_width="250dp"
+    android:layout_height="350dp"
+    android:background="@drawable/bg_dialog_usercenter" >
+
+    <ImageView
+        android:id="@+id/ibt_dialog_close"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/eraser_save_close" />
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layoutAnimation="@anim/layout_animation" >
+
+        <TextView
+            android:id="@+id/tv_wx_oth2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_demo_circle1"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="微信登录"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_sina_oth2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_demo_circle6"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="微博登录"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_qq_oth2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_demo_circle2"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="空间登录"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="9sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

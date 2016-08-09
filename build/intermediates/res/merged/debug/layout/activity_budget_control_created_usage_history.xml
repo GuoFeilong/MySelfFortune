@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/conmmd_darkgray"
+        android:orientation="vertical"
+        android:weightSum="5" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_wallet_history_data"
+                android:layout_width="120dp"
+                android:layout_height="33dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/lv_bg_shape_light"
+                android:gravity="center"
+                android:text="02/2014"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_wallet_history_family_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Share Usage 1"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_wallet_history_wallet_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/tv_wallet_history_family_name"
+                    android:text="600M / 1000M"
+                    android:textColor="@color/conmmd_button_green"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_wallet_history_wallet_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_wallet_history_family_name"
+                    android:layout_toLeftOf="@id/tv_wallet_history_wallet_value"
+                    android:text="Total: "
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:background="@color/conmmd_lightgray" >
+
+            <!-- <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line_bg" /> -->
+
+            <ListView
+                android:id="@+id/lv_wallet_history_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:divider="@null"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+            </ListView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <Button
+                    android:id="@+id/bt_wallet_recharge"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_green_selector"
+                    android:text="@string/button_recharge"
+                    android:textColor="@color/conmmd_text_green_button_color"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_budget_control_created_usage_history.xml -->

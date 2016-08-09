@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_rect_normal"
+        android:layout_width="@dimen/item_package_rect"
+        android:layout_height="@dimen/item_package_rect"
+        android:layout_marginRight="5dp" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_rect_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/conmmd_textcolor_s"
+        android:textSize="@dimen/set_right_value" />
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_traffic_mouth_flow.xml -->

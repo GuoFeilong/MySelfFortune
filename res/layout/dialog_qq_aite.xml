@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_usercenter_dialog"
+    android:layout_width="250dp"
+    android:layout_height="350dp"
+    android:background="@drawable/bg_dialog_usercenter">
+
+    <ImageView
+        android:id="@+id/ibt_dialog_close"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/eraser_save_close"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ibt_dialog_close"
+        android:layout_centerInParent="true"
+        android:layoutAnimation="@anim/layout_animation">
+
+        <ListView
+            android:id="@+id/lv_qq_members"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/conmmd_line"
+            android:dividerHeight="@dimen/commond_line_height"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+        </ListView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

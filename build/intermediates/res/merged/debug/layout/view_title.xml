@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/commond_title_height" >
+
+    <RelativeLayout
+        android:id="@+id/rl_commond_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_title_height"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/commond_textview_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="@dimen/commond_titlebar_font_size" />
+        <TextView
+            android:id="@+id/commond_textview_title_leftbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Cancel"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="@dimen/commond_titlebar_font_size" />
+
+        <RelativeLayout
+            android:id="@+id/commond_imagebutton_title_leftbutton"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/button_back_selector" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/commond_imagebutton_title_Rightbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/commond_titlebar_padding"
+            android:background="@null"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+        <ImageView
+            android:id="@+id/iv_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/view_title.xml -->

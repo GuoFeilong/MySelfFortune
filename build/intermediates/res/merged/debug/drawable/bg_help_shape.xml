@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false" >
+    <solid android:color="@color/conmmd_yellow" />
+</shape><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/drawable/bg_help_shape.xml -->

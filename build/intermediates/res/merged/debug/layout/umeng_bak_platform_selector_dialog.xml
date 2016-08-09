@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/umeng_socialize_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/conmmd_background" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/conmmd_lightgray"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/umeng_socialize_platforms_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/conmmd_line"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:focusable="true"
+            android:groupIndicator="@null"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            android:padding="1px"
+            android:scrollbars="none"
+            android:scrollingCache="false" >
+        </ListView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_below="@+id/umeng_socialize_platforms_lv"
+            android:background="@color/conmmd_line" />
+
+        <include layout="@layout/loading_progress" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/umeng_bak_platform_selector_dialog.xml -->

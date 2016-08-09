@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" >
+    </include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_commond_title"
+        android:background="@color/conmmd_lightgray" >
+
+        <include
+            android:id="@+id/lv_balance_detail_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/item_balance_detail_header" >
+        </include>
+
+        <ImageView
+            android:id="@+id/iv_line_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_below="@+id/lv_balance_detail_header"
+            android:background="@drawable/line" />
+
+        <ListView
+            android:id="@+id/lv_balance_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv_line_header"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@drawable/line"
+            android:dividerHeight="2dp"
+            android:groupIndicator="@null"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

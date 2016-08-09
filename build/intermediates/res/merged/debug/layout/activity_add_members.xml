@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/lv_bg_shape_light" >
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_geduan"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/include_commond_title"
+            android:background="@color/conmmd_background" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" >
+
+            <ListView
+                android:id="@+id/lv_add_members"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+            </ListView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_add_members.xml -->

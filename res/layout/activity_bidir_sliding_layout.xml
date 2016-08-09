@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.view.BidirSlidingLayout
+        android:id="@+id/bid_sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title" >
+
+        <RelativeLayout
+            android:id="@+id/left_menu"
+            android:layout_width="270dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@color/demo_title1"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="This is left menu"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/right_menu"
+            android:layout_width="270dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/demo_title6"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="This is right menu"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="320dip"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/show_left_button"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_audio_button_normal"
+                    android:gravity="center"
+                    android:text="show left"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/show_right_button"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_audio_button_normal"
+                    android:gravity="center"
+                    android:text="show right"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/contentList"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_audio_button_normal"
+                android:cacheColorHint="#00000000"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+            </ListView>
+        </LinearLayout>
+    </com.guofeilong.fortune.ui.view.BidirSlidingLayout>
+
+</RelativeLayout>

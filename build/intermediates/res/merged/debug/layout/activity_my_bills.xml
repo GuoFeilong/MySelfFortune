@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_lightgray" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_traffic"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/conmmd_lightgray" >
+
+        <LinearLayout
+            android:id="@+id/ll_diagram_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/scroll_trafficview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_diagram_title"
+            android:layout_marginBottom="20dp" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.asiainfo.rtss.ui.view.TrafficMouthView
+                    android:id="@+id/bills_traffic_mouth_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </com.asiainfo.rtss.ui.view.TrafficMouthView>
+
+                <RelativeLayout
+                    android:id="@+id/rl_traffic_pop"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/popup_black"
+                    android:gravity="center"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:id="@+id/my_bills_pop_value_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11sp"
+                        android:text="10MB" />
+                </RelativeLayout>
+            </FrameLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_my_bills.xml -->

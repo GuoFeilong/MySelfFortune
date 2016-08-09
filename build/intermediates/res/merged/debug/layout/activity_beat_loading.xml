@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="3" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_paomadeng"
+                android:layout_width="155dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_budget_value"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="自定义RelativeLayout,传入动画切换的三张图片作为自定义属性,在构造中拿到属性图片,动态的创建出要执行动画的控件,暴露出start和stop的方法"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="10sp" />
+
+            <com.guofeilong.fortune.ui.view.CustomBeatLoading
+                android:id="@+id/beat_loading"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                gfl:image_first="@drawable/bg_first"
+                gfl:image_second="@drawable/bg_second"
+                gfl:image_size="30dp"
+                gfl:image_third="@drawable/bg_third" >
+            </com.guofeilong.fortune.ui.view.CustomBeatLoading>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <com.guofeilong.fortune.ui.view.CustomBeatLoading
+                android:id="@+id/beat_loading_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                gfl:image_first="@drawable/bg_frist0"
+                gfl:image_second="@drawable/bg_frist1"
+                gfl:image_size="30dp"
+                gfl:image_third="@drawable/bg_frist2" >
+            </com.guofeilong.fortune.ui.view.CustomBeatLoading>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <com.guofeilong.fortune.ui.view.CustomBeatLoading
+                android:id="@+id/beat_loading2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                gfl:image_first="@drawable/bg_third"
+                gfl:image_second="@drawable/bg_first"
+                gfl:image_size="30dp"
+                gfl:image_third="@drawable/bg_second" >
+            </com.guofeilong.fortune.ui.view.CustomBeatLoading>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commond_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/conmmd_line" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_beat_loading.xml -->

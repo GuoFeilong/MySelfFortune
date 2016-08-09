@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+
+    <TableLayout
+        android:id="@+id/tl_pattern_container"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/include_commond_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_gridview_pattern"
+        android:gravity="center"
+        android:padding="2dp"
+        android:stretchColumns="0,1,2" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_zero"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_one"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_two"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_three"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_four"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_five"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_six"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_seven"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pattern_preview_eight"
+                    android:layout_width="@dimen/pattern_key_size"
+                    android:layout_height="@dimen/pattern_key_size"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_gridview_pattern_key" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_lock_pattern_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tl_pattern_container"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Draw an unlock pattern"
+        android:textColor="@color/graywhite"
+        android:textSize="14sp" />
+
+    <com.guofeilong.fortune.ui.view.PatternSettingView
+        android:id="@+id/lpv_lockPattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_lock_pattern_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>

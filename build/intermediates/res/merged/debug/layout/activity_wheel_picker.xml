@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <Button
+        android:id="@+id/btn_show_picker"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_yellow_selector"
+        android:text="ShowPicker"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="@dimen/set_left_title" />
+
+    <com.guofeilong.fortune.ui.view.CustomIconAndTextView
+        android:id="@+id/ctv_text"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/ctv_text"
+        android:layout_below="@+id/include_commond_title"
+        android:layout_marginTop="52dp"
+        gfl:icon="@drawable/gridview_icon_04s_discovery"
+        gfl:text="Android"
+        gfl:text_size="10sp"
+        gfl:color="@color/demo_title7" />
+
+    <com.guofeilong.fortune.ui.view.CustomIconAndTextView
+        android:id="@+id/ctv_text"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btn_show_picker"
+        android:layout_centerVertical="true"
+        gfl:icon="@drawable/gridview_icon_01s_wallet"
+        gfl:text="Android"
+        gfl:text_size="10sp"
+        gfl:color="@color/demo_title6" />
+
+    <com.guofeilong.fortune.ui.view.CustomIconAndTextView
+        android:id="@+id/ctv_text"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btn_show_picker"
+        android:layout_alignLeft="@+id/btn_show_picker"
+        android:layout_marginBottom="55dp"
+        gfl:icon="@drawable/gridview_icon_03s_budget"
+        gfl:text="Android"
+        gfl:text_size="10sp"
+        gfl:color="@color/demo_title3" />
+
+    <com.guofeilong.fortune.ui.view.MarqueeTextView
+        android:id="@+id/tv_paomadeng"
+        android:layout_width="155dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/include_commond_title"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_budget_value"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="自定义颜色icon和文字,1,attrs声明自定义属性,构造中后去,onMesage获取宽高,onDraw中绘制icon和文字,传入apht值,改变透明度"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="10sp" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_wheel_picker.xml -->

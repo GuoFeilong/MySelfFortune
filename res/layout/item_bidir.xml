@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp" >
+
+    <com.guofeilong.fortune.ui.view.CustomPPTVLoading
+        android:id="@+id/pptv_dir"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        gfl:pptv_frist_color="@color/demo_title4"
+        gfl:pptv_second_color="@color/demo_title5" >
+    </com.guofeilong.fortune.ui.view.CustomPPTVLoading>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/conmmd_darkgray"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dip" >
+
+    <TextView
+        android:id="@+id/tv_tv_balance_detail_left_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_weight="3"
+        android:text="Plan"
+        android:textColor="@color/conmmd_textcolor_s"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_tv_balance_detail_center_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:text="Remaining"
+        android:textColor="@color/conmmd_textcolor_s"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_balance_detail_right_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:text="Total"
+        android:textColor="@color/conmmd_textcolor_s"
+        android:textSize="14sp" />
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_balance_detail_header.xml -->

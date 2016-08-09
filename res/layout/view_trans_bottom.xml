@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 底部按钮面板 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/trans_bottom_view_height"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/bg_trans_lightgray"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    android:visibility="visible" >
+
+    <ImageView
+        android:id="@+id/iv_transfer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/bg_circle_trans" >
+    </ImageView>
+
+    <ScrollView
+        android:id="@+id/scrollview_text"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/iv_transfer_icon" >
+
+        <TextView
+            android:id="@+id/tv_transfer_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transfer_text_info"
+            android:textSize="10sp"
+            android:textColor="@color/conmmd_textcolor"
+             >
+        </TextView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_transfer_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scrollview_text"
+        android:layout_below="@+id/scrollview_text"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/iv_transfer_icon"
+        android:text="@string/transfer_text_result_name"
+        android:textColor="@color/qingse" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_transfer_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollview_text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toRightOf="@+id/tv_transfer_result"
+        android:text="@string/transfer_text_result_value"
+        android:textColor="@color/qingse"
+        android:textSize="20sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="@dimen/trans_button_width"
+        android:layout_height="@dimen/trans_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/trans_btn_margin_bottom"
+        android:layout_marginLeft="@dimen/trans_margin"
+        android:background="@drawable/button_gray_selector_2"
+        android:text="@string/transfer_btn_reset"
+        android:textColor="@color/conmmd_textcolor" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="@dimen/trans_button_width"
+        android:layout_height="@dimen/trans_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/trans_btn_margin_bottom"
+        android:layout_marginRight="@dimen/trans_margin"
+        android:background="@drawable/button_green_selector"
+        android:text="@string/transfer_btn_submit"
+        android:textColor="@color/conmmd_textcolor" >
+    </Button>
+
+</RelativeLayout>

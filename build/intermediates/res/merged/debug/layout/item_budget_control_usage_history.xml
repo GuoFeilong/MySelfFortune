@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/conmmd_lightgray" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp" >
+
+        <com.asiainfo.rtss.ui.view.CircleImageView
+            android:id="@+id/civ_usage_history_portrait"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/default_portrait" />
+
+        <RelativeLayout
+            android:id="@+id/rl_wallet_name_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/civ_usage_history_portrait" >
+
+            <TextView
+                android:id="@+id/tv_usage_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Sadam"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_usage_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_usage_name"
+                android:gravity="center_vertical"
+                android:text="876876232"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_usage_sum_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:text="/ 100M"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_usage_used_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_usage_sum_data"
+                android:gravity="center_vertical"
+                android:text="51M "
+                android:textColor="@color/conmmd_button_green"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_usage_persent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:padding="0.4dp"
+                android:layout_height="7dp"
+                android:layout_below="@id/tv_usage_used_data"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_usage_history_bg"
+                android:max="100"
+                android:progress="50"
+                android:progressDrawable="@drawable/bg_usage_history_pb" >
+            </ProgressBar>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line_bg" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_budget_control_usage_history.xml -->

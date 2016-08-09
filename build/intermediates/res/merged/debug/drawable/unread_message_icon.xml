@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="oval"
+    >
+    <!-- 实心 -->
+    <solid android:color="@color/conmmd_font_text_blue" />>
+    <padding
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp" />
+</shape><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/drawable/unread_message_icon.xml -->

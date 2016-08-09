@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.15"
+            android:orientation="vertical"
+            android:weightSum="2" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_group_password"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/lv_bg_shape_new_style" >
+
+                    <TextView
+                        android:id="@+id/tv_group_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="-9dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#9cbd3b"
+                        android:textSize="39sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_jion_group_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/rl_group_password"
+                    android:layout_marginBottom="23dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="Enter a four digit password below to create a group with friends nearby"
+                    android:textColor="@color/conmmd_textcolor_s"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2" >
+
+                <com.asiainfo.rtss.ui.view.CircleImageView
+                    android:id="@+id/civ_member_one"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/family_icon_1"
+                    android:visibility="invisible" />
+
+                <com.asiainfo.rtss.ui.view.CircleImageView
+                    android:id="@+id/civ_member_two"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/civ_member_one"
+                    android:src="@drawable/family_icon_3"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_gravity="bottom|center_horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_create_group"
+                        android:layout_width="275dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bg_create_group"
+                        android:gravity="center"
+                        android:text="Create this group"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <TableLayout
+                    android:id="@+id/tl_num_keyboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:stretchColumns="0,1,2,3"
+                    android:visibility="visible"
+                    android:weightSum="4" >
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="3" >
+
+                        <Button
+                            android:id="@+id/btn_num_one"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="1"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/btn_num_two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="2"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/btn_num_three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="3"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="3" >
+
+                        <Button
+                            android:id="@+id/btn_num_four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="4"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/btn_num_five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="5"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/btn_num_six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="6"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="3" >
+
+                        <Button
+                            android:id="@+id/btn_num_seven"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="7"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/btn_num_eight"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="8"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/btn_num_nine"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="9"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="3" >
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard_default"
+                            android:clickable="false"
+                            android:text=""
+                            android:textColor="@color/conmmd_black"
+                            android:textSize="35sp" />
+
+                        <Button
+                            android:id="@+id/btn_num_zero"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_num_delete"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_keyboard"
+                            android:clickable="true" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/bg_keyboard_delete" />
+                        </RelativeLayout>
+                    </TableRow>
+                </TableLayout>
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

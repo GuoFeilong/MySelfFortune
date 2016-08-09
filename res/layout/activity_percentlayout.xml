@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.guofeilong.fortune.ui.percentlayout.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.percentlayout.PercentRelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        app:layout_heightPercent="80%w"
+        app:layout_widthPercent="80%w"
+        android:background="@color/transparent"
+        android:layoutAnimation="@anim/layout_animation2" >
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_heightPercent="70%w"
+            app:layout_widthPercent="70%w"
+            android:background="@drawable/bg_demo_circle1" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_heightPercent="60%w"
+            app:layout_widthPercent="60%w"
+            android:background="@drawable/bg_demo_circle2" />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_heightPercent="50%w"
+            app:layout_widthPercent="50%w"
+            android:background="@drawable/bg_demo_circle3" />
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_heightPercent="40%w"
+            app:layout_widthPercent="40%w"
+            android:background="@drawable/bg_demo_circle4" />
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_heightPercent="30%w"
+            app:layout_widthPercent="30%w"
+            android:background="@drawable/bg_demo_circle1" />
+
+        <TextView
+            android:id="@+id/tv_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w"
+            android:background="@drawable/bg_demo_circle6" />
+
+        <TextView
+            android:id="@+id/tv_7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_heightPercent="10%w"
+            app:layout_widthPercent="10%w"
+            android:background="@drawable/bg_demo_circle7"
+            android:gravity="center"
+            android:text="Luck"
+            android:textColor="@color/white"
+            android:textSize="9sp" />
+    </com.guofeilong.fortune.ui.percentlayout.PercentRelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_mytextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_container"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_full_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_mytextview"
+        android:layout_marginLeft="5dp"
+        android:text="全文"
+        android:textColor="@color/demo_title4"
+        android:visibility="invisible" />
+
+    <com.guofeilong.fortune.ui.view.TopDrawableTextView
+        xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+        android:id="@+id/topt_view"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_budget_sub_value"
+        android:text="不加空格也可以用了,试试"
+        android:textSize="12sp"
+        gfl:top_icon="@drawable/bg_usercenter_like" >
+    </com.guofeilong.fortune.ui.view.TopDrawableTextView>
+
+</com.guofeilong.fortune.ui.percentlayout.PercentRelativeLayout>

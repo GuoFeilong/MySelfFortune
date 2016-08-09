@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_lightgray" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <EditText
+        android:id="@+id/ed_find_comment_my"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_feedback_height"
+        android:layout_below="@+id/include_commond_title"
+        android:layout_margin="@dimen/about_margin"
+        android:background="@drawable/backgroud_setting_item"
+        android:focusable="true"
+        android:gravity="top|left"
+        android:padding="20dp"
+        android:textColor="@color/conmmd_textcolor_s" >
+    </EditText>
+
+    <ImageView
+        android:id="@+id/iv_find_commend_my_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ed_find_comment_my"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/bolt_on_package_type9_icon" />
+
+    <include
+        android:layout_centerInParent="true"
+        layout="@layout/loading_progress" >
+    </include>
+
+</RelativeLayout>

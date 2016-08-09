@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:minHeight="@dimen/muilist_text_height"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/muilist_text_height"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_inventory_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/muilist_test_line_height"
+        android:layout_gravity="bottom"
+        android:background="@color/conmmd_textcolor" />
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/inventory_item_inventory.xml -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_find_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_geduan"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/include_commond_title"
+        android:background="@color/conmmd_background" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_find_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_geduan"
+        android:background="@null"
+        android:divider="@color/conmmd_line"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:groupIndicator="@null"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:padding="@dimen/commond_line_height"
+        android:scrollbars="none"
+        android:scrollingCache="false" >
+    </ListView>
+
+    <include
+        android:layout_centerInParent="true"
+        layout="@layout/loading_progress" >
+    </include>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_find_comment.xml -->

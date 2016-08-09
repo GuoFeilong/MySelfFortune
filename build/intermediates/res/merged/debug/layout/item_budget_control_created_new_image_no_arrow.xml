@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/conmmd_lightgray" >
+
+    <RelativeLayout
+        android:id="@+id/rl_created_image_noarrow_container"
+        android:layout_width="match_parent"
+        android:layout_height="63dp" >
+
+        <TextView
+            android:id="@+id/tv_budget_control_created_imagetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="Photo"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="15sp" />
+
+        <com.asiainfo.rtss.ui.view.CircleImageView
+            android:id="@+id/civ_budget_control_created_item_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/default_portrait" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line_bg" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_budget_control_created_new_image_no_arrow.xml -->

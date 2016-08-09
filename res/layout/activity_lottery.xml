@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <com.guofeilong.fortune.ui.view.LotterySurfaceView
+        android:id="@+id/sfv_lottery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="15dp" >
+    </com.guofeilong.fortune.ui.view.LotterySurfaceView>
+
+    <ImageView
+        android:id="@+id/iv_needle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_needle" />
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/luck_start" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="5dp"
+        android:progressDrawable="@drawable/bg_budget_value"
+        android:thumb="@drawable/bg_demo_circle4"
+        android:thumbOffset="0dp" />
+
+    <!--
+    <com.guofeilong.fortune.ui.view.CircleImageView
+        xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/seekbar"
+        android:layout_centerHorizontal="true"
+        android:src="@color/demo_title4" >
+    </com.guofeilong.fortune.ui.view.CircleImageView>
+    -->
+
+    <com.guofeilong.fortune.ui.view.CircleImageViewGoogle
+        xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/seekbar"
+        android:layout_centerHorizontal="true"
+        android:src="@color/demo_title7"
+        gfl:border_color="@color/demo_title8"
+        gfl:border_overlay="false"
+        gfl:border_width="2dp" >
+    </com.guofeilong.fortune.ui.view.CircleImageViewGoogle>
+
+</RelativeLayout>

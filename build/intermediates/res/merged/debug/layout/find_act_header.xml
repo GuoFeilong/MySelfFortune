@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/find_act_header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud_setting_item"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <ImageView
+            android:id="@+id/iv_find_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/find_default_icon" />
+
+        <TextView
+            android:id="@+id/tv_find_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/tv_find_date"
+            android:layout_toRightOf="@+id/iv_find_icon"
+            android:text=""
+            android:textColor="@color/conmmd_black"
+            android:textSize="@dimen/set_left_title" />
+
+        <TextView
+            android:id="@+id/tv_find_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textColor="@color/conmmd_black" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_find_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_top"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/find_default" />
+
+    <TextView
+        android:id="@+id/tv_find_des_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_find_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textColor="@color/conmmd_black"
+        android:textSize="@dimen/set_left_title" />
+
+    <TextView
+        android:id="@+id/tv_find_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_find_des_title"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="6dp"
+        android:text=""
+        android:textColor="@color/find_des" >
+    </TextView>
+
+    <Button
+        android:id="@+id/find_ibtn_join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_find_des"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_activity_details"
+        android:text="@string/find_act_button_text"
+        android:textColor="@color/white" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/find_act_header.xml -->

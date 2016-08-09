@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_commond_title" >
+
+        <com.guofeilong.fortune.ui.view.CanvasView
+            xmlns:gfl="http://schemas.android.com/apk/res/com.guofeilong.fortune"
+            android:id="@+id/cvs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            gfl:big_circle_color="@color/demo_title2"
+            gfl:common_text_color="@color/demo_title7"
+            gfl:common_text_size="11sp"
+            gfl:main_text_color="@color/white"
+            gfl:main_text_size="16sp"
+            gfl:middle_circle_color="@color/demo_title3"
+            gfl:small_circle_color="@color/demo_title5" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/activity_canvas.xml -->

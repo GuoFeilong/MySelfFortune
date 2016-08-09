@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/conmmd_lightgray" >
+
+    <include
+        android:id="@+id/activity_quick_transfer_include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <ListView
+        android:id="@+id/q_transfer_lv_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_quick_transfer_include_commond_title"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_quick_order_list"
+        android:divider="@color/conmmd_line"
+        android:dividerHeight="@dimen/commond_line_height"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never"
+        android:paddingBottom="3dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="3dp" />
+
+</RelativeLayout>

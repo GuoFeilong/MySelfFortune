@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- 设置 -->
+    <dimen name="set_left_title">13sp</dimen>
+    <dimen name="set_left_title_2">25sp</dimen>
+    <dimen name="commond_item_padding">7dp</dimen>
+    <dimen name="homepage_bottle_max_amp">10dp</dimen>
+    <dimen name="homepage_bottle_fullline">120dp</dimen>
+    <dimen name="homepage_bottle_margin_top">150dp</dimen>
+    <dimen name="protect_setting_margin">20dp</dimen>
+    <dimen name="homepage_bottle_width">180dp</dimen>
+    <dimen name="homepage_bottle_heigh">270dp</dimen>
+    <!-- 交换流量 -->
+    <dimen name="exchange_wave_diameter">90dp</dimen>
+    <dimen name="exchange_portrait">55dp</dimen>
+    <dimen name="exchange_portrait_bg">65dp</dimen>
+    <!-- 通用 -->
+    <dimen name="commond_titlebar_padding">8dp</dimen>
+    <dimen name="commond_titlebar_font_size">18sp</dimen>
+    <dimen name="commond_titlebar_font_size_right">14sp</dimen>
+    <dimen name="commond_line_height">1px</dimen>
+
+    <!-- trans -->
+    <dimen name="trans_btn_margin_bottom">20dp</dimen>
+    <dimen name="trans_progress_width">215dp</dimen>
+    <dimen name="trans_progress_height">85dp</dimen>
+    <dimen name="trans_button_width">130dp</dimen>
+    <dimen name="trans_button_height">40dp</dimen>
+    <dimen name="trans_margin">10dp</dimen>
+    <dimen name="trans_bottom_view_height">180dp</dimen>
+
+    <!-- 柱状图 -->
+    <dimen name="popu_height">30dp</dimen>
+    <dimen name="popu_width">50dp</dimen>
+    <dimen name="mouth_base_bar_width">18dp</dimen>
+    <dimen name="base_bar_width">9dp</dimen>
+    <dimen name="base_mark">6dp</dimen>
+    <dimen name="top_text">6dp</dimen>
+    <dimen name="bottom_text">13dp</dimen>
+    <dimen name="circle_radius">4.5dp</dimen>
+    <dimen name="item_package_rect">10dp</dimen>
+    <dimen name="set_right_value">10sp</dimen>
+
+    <!-- moblie usage -->
+    <dimen name="moblie_usage_circle_diameter">80dp</dimen>
+    <dimen name="moblie_usage_circle_font_title">20sp</dimen>
+    <dimen name="moblie_usage_circle_font_subtitle">10sp</dimen>
+    <dimen name="moblie_usage_circle_font_unit">8sp</dimen>
+    <dimen name="moblie_usage_circle_font_num_top_margin">12dp</dimen>
+    <dimen name="moblie_usage_circle_total_bottom">12dp</dimen>
+    <dimen name="moblie_usage_circle_unit_top">-5dp</dimen>
+    <dimen name="rupee_margin">5dp</dimen>
+    <dimen name="setting_commond_padding">8dp</dimen>
+    <dimen name="slidingmenu_font_size">20sp</dimen>
+    <!-- 发现相关 -->
+    <dimen name="find_loading">60dp</dimen>
+    <dimen name="find_des">8sp</dimen>
+    <dimen name="find_name">10sp</dimen>
+    <!-- Turboboost -->
+    <dimen name="turboboost_item_height">100dp</dimen>
+    <dimen name="turboboost_item_height2">100dp</dimen>
+    <dimen name="set_text_size">23sp</dimen>
+    <dimen name="turboboost_item_textSize">13sp</dimen>
+    <dimen name="turboboost_item_hour">5dp</dimen>
+    <dimen name="turboboost_item_mbps">-18dp</dimen>
+
+    <!-- Manage Plan -->
+    <dimen name="radiogroup_width">180dp</dimen>
+    <dimen name="radiogroup_height">40dp</dimen>
+    <dimen name="radiobutton_width">90dp</dimen>
+    <dimen name="button_textsize">13sp</dimen>
+    <dimen name="packagename_textsize">15sp</dimen>
+    <dimen name="price_textsize">18sp</dimen>
+    <dimen name="textsize">13sp</dimen>
+    <dimen name="list_textsize">12sp</dimen>
+    <dimen name="list_pic_width">30dp</dimen>
+    <dimen name="list_pic_height">28dp</dimen>
+    <dimen name="list_text_width">35dp</dimen>
+    <dimen name="list_text_height">20dp</dimen>
+
+    <!-- Plan Details -->
+    <dimen name="pd_textsize">13sp</dimen>
+    <dimen name="pd_text_height">60dp</dimen>
+    <dimen name="font_top_title_textsize">20sp</dimen>
+    <dimen name="service_request_add_ll">40sp</dimen>
+
+    <!-- 关于页面 -->
+    <dimen name="about_margin">10dp</dimen>
+    <dimen name="about_feedback_height">200dp</dimen>
+    <dimen name="about_item_height">50dp</dimen>
+    <dimen name="about_margin_right_verion">30dp</dimen>
+    <dimen name="usercenter_item_hight">47dp</dimen>
+
+    <!-- 下拉刷新 -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <!-- trans -->
+    <!-- 折线图之每日流量详情 -->
+    <dimen name="traffic_day_use_detail_size">10sp</dimen>
+    <dimen name="traffic_day_use_Xdetail_size">10sp</dimen>
+    <dimen name="traffic_day_use_circle_size">4dp</dimen>
+    <dimen name="traffic_day_use_paint_width">1.1dp</dimen>
+    <dimen name="traffic_day_use_paintline_width">1.5dp</dimen>
+    <dimen name="traffic_day_use_white_circle_width">0.45dp</dimen>
+    <dimen name="traffic_day_chart_view_hight">180dp</dimen>
+    <dimen name="traffic_day_chart_view__parent_hight">180dp</dimen>
+    <dimen name="traffic_day_chart_view__x2bottom_hight">50dp</dimen>
+    <dimen name="where_traffic_textview_size">18sp</dimen>
+    <dimen name="where_traffic_textview_margintop">60dp</dimen>
+    <dimen name="where_traffic_textview_marginleft">50dp</dimen>
+    <dimen name="where_traffic_confirmed_marginleft">70dp</dimen>
+    <dimen name="where_traffic_confirmed_margintop">10dp</dimen>
+    <dimen name="where_traffic_dialog_x">-25dp</dimen>
+    <dimen name="where_traffic_dialog_y">-10dp</dimen>
+    <dimen name="where_traffic_popwindow_right">35dp</dimen>
+    <dimen name="where_traffic_popwindow_bottom">239dp</dimen>
+    <dimen name="pattern_key_size">15dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="chatview_width">150dp</dimen>
+    <dimen name="chatview_heigh">150dp</dimen>
+    <dimen name="chatview_select_offset">6dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+</resources>

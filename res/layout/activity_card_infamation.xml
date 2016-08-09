@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_darkgray" >
+
+    <include
+        android:id="@+id/activity_card_info_include_commond_title"
+        android:layout_width="match_parent"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_card_info_include_commond_title"
+        android:background="@color/conmmd_lightgray" >
+
+        <TextView
+            android:id="@+id/tv_card_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/activity_card_info_card_type"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_card_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tv_card_type"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lv_bg_shape_new_style"
+            android:ems="10"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:hint="@string/activity_card_info_card_type_hint"
+            android:textSize="17sp" 
+            android:cursorVisible="false"/>
+
+        <TextView
+            android:id="@+id/tv_expity_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_card_type"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/activity_card_info_expity_date"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_expity_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tv_expity_date"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lv_bg_shape_new_style"
+            android:ems="10"
+            android:inputType="datetime"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/activity_card_info_tv_mobile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_expity_date"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/activity_card_info_mobile"
+            android:textColor="@color/conmmd_textcolor_s"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/activity_card_info_et_mobile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/activity_card_info_tv_mobile_phone"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lv_bg_shape_new_style"
+            android:ems="10"
+            android:inputType="phone"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="45dp"  >
+
+            <Button
+                android:id="@+id/activity_card_info_bt_next"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_yellow_selector"
+                android:text="@string/button_submit"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

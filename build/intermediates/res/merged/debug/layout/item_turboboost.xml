@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:id="@+id/rl_turboboost_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commond_title_height" >
+
+        <ImageView
+            android:id="@+id/im_turboboost_item_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+            android:id="@+id/im_turboboost_right"
+            android:layout_width="20dp"
+            android:layout_height="65dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:textColor="@color/conmmd_textcolor" />
+
+        <TextView
+            android:id="@+id/tv_turboboost_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/im_turboboost_right"
+            android:layout_toRightOf="@id/im_turboboost_item_pic"
+            android:text="LastFM"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_positive_list"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/turboboost_item_height"
+        android:layout_below="@id/rl_turboboost_item"
+        android:background="@color/conmmd_lightgray"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/rl_buy_details"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/tv_speed_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/turboboost_speed"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_turboboost_time"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/turboboost_shape"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/turboboost_ethor"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="@dimen/turboboost_item_textSize" />
+
+            <TextView
+                android:id="@+id/tv_turboboost_bandwidth"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/tv_speed_to"
+                android:background="@drawable/turboboost_shape"
+                android:gravity="center"
+                android:text="@string/turboboost_etmbps"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="@dimen/turboboost_item_textSize" />
+
+            <TextView
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_speed_to"
+                android:layout_alignBottom="@id/tv_speed_to"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/tv_turboboost_time"
+                android:text="Duration"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/rl_buy_details" >
+
+            <TextView
+                android:id="@+id/tv_buy_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="€1.5"
+                android:textColor="@color/conmmd_button_green_a"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/bt_turboboost_submit"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/button_green_selector"
+                android:text="Submit"
+                android:textColor="@color/conmmd_black"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/bt_turboboost_reset"
+                style="@style/button_style"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@id/bt_turboboost_submit"
+                android:background="@drawable/button_gray_selector_2"
+                android:text="Reset"
+                android:textColor="@color/conmmd_textcolor_s"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_centerVertical="true"
+            android:background="@color/conmmd_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_negative_list"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/turboboost_item_height2"
+        android:layout_below="@id/rl_turboboost_item"
+        android:background="@color/conmmd_lightgray"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_turboboost_order_details"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="280dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/turboboost_details"
+            android:textColor="@color/conmmd_textcolor_s" />
+
+        <Button
+            android:id="@+id/bt_turboboost_purchase"
+            style="@style/button_style"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/turboboost_buytime"
+            android:textColor="@color/conmmd_textcolor"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tv_turboboost_countdown_time"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_turboboost_order_details"
+            android:layout_marginTop="60dp"
+            android:text="@string/turboboost_time"
+            android:textColor="@color/conmmd_textcolor_s" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/item_turboboost.xml -->

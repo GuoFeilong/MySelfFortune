@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke android:width="0.3dp" android:color="#646667" />
+    <gradient 
+        android:startColor="#7cad37" 
+        android:endColor="#7cad37"/>
+    <corners android:radius="5dp" />
+</shape><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/drawable/lv_balance_shape.xml -->

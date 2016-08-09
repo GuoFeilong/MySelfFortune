@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/progressbar"
+            android:text="@string/find_loading_more"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/slidingmenu_font_size" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textview_onclick"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/find_loading"
+        android:gravity="center"
+        android:text="@string/find_loading_more_click"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/slidingmenu_font_size"
+        android:visibility="invisible" />
+
+</RelativeLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/adapter_footview.xml -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_coin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conmmd_background" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RatingBar
+        style="@style/roomRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:numStars="5"
+        android:rating="2.5" />
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_yellow_selector"
+        android:text="改变位置"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="@dimen/set_left_title" />
+
+    <Button
+        android:id="@+id/btn_start_animation"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_yellow_selector"
+        android:text="开始动画"
+        android:textColor="@color/conmmd_textcolor"
+        android:textSize="@dimen/set_left_title" />
+
+</RelativeLayout>

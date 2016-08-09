@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/muilist_title_height"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/muilist_title_common_padding">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/muilist_title_common_padding">
+
+        <!-- 点击展开或者收缩 -->
+        <RelativeLayout
+            android:id="@+id/rl_muilist_title_name_icon_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true">
+
+
+            <TextView
+                android:id="@+id/tv_muilist_title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="2dp"
+                android:text="Address Book"
+                android:textColor="@color/conmmd_textcolor"
+                android:textSize="@dimen/muilist_title_textsize" />
+
+            <ImageView
+                android:id="@+id/iv_muilist_title_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_muilist_title_name"
+                android:src="@drawable/bg_muilist_title_icon_down" />
+
+
+        </RelativeLayout>
+
+        <!-- 点击进入编辑状态并且 转开状态-->
+        <RelativeLayout
+            android:id="@+id/iv_muilist_edit_icon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_weight="0.2">
+
+
+            <ImageView
+                android:id="@+id/iv_muilist_edit_pen"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bg_muilist_title_icon_edit" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <!-- 在收缩模式下线条不可见 展开和编辑模式 线条可见-->
+    <ImageView
+        android:id="@+id/iv_muilist_title_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:background="@color/conmmd_textcolor" />
+
+
+</LinearLayout><!-- From: file:/Users/jsion/AndroidStudioPersonal/MySelfFortune/res/layout/infolist_layout_minfolist_title.xml -->

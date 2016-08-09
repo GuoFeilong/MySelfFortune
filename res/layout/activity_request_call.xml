@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_commond_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/conmmd_lightgray"
+            android:padding="19dp" >
+
+            <RelativeLayout
+                android:id="@+id/rl_request_call_service"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/lv_bg_shape" >
+
+                <TextView
+                    android:id="@+id/tv_request_call_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_india_currency_sigh"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/request_call_service"
+                    android:minHeight="50dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textColorHint="@color/conmmd_textcolor_t"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/bg_request_call_down"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/conmmd_lightgray"
+            android:padding="19dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/lv_bg_shape" >
+
+                <EditText
+                    android:id="@+id/et_request_call_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_india_currency_sigh"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/request_call_name"
+                    android:minHeight="50dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textColorHint="@color/conmmd_textcolor_t"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/conmmd_lightgray"
+            android:padding="19dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/lv_bg_shape" >
+
+                <EditText
+                    android:id="@+id/et_request_call_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_india_currency_sigh"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/request_call_phone"
+                    android:inputType="phone"
+                    android:minHeight="50dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textColorHint="@color/conmmd_textcolor_t"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+                
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/conmmd_lightgray"
+            android:padding="19dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/lv_bg_shape" >
+
+                <EditText
+                    android:id="@+id/et_request_call_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_india_currency_sigh"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/request_call_Email"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="50dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textColorHint="@color/conmmd_textcolor_t"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/conmmd_lightgray"
+            android:padding="19dp" >
+
+            <RelativeLayout
+                android:id="@+id/rl_request_call_calltime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/lv_bg_shape" >
+
+                <TextView
+                    android:id="@+id/tv_request_call_calltime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_india_currency_sigh"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/request_call_calltime"
+                    android:minHeight="50dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/conmmd_textcolor"
+                    android:textColorHint="@color/conmmd_textcolor_t"
+                    android:textSize="@dimen/commond_titlebar_font_size_right" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/bg_request_call_down"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commond_line_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/conmmd_darkgray" >
+
+        <Button
+            android:id="@+id/bt_request_call_submit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_green_selector"
+            android:text="Submit"
+            android:textColor="@color/conmmd_text_green_button_color"
+            android:textSize="17sp" />
+    </FrameLayout>
+
+</LinearLayout>
